@@ -91,36 +91,8 @@ Page {
                 height: Theme.itemSizeMedium
                 width: parent.width
 
-                Column {
-                    Label {
-                        id: answerLabel
-
-                        anchors.left: parent.left
-                        anchors.leftMargin: Theme.paddingLarge
-                        anchors.right: parent.right
-                        anchors.rightMargin: Theme.paddingLarge
-
-                        text: answerType === 0 ? answer : ""
-                        visible: answerType === 0 ? true : false
-                        wrapMode: Text.WordWrap
-                        color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
-                    }
-
-                    Label {
-
-                        anchors.left: parent.left
-                        anchors.leftMargin: Theme.paddingLarge
-                        anchors.right: parent.right
-                        anchors.rightMargin: Theme.paddingLarge
-
-                        text: showAnswerDetails === 1 ? answerDetails : ""
-                        visible: showAnswerDetails === 1 ? true : false
-                        wrapMode: Text.WordWrap
-                        color: Theme.secondaryColor
-                    }
-                }
-
                 Image {
+                    id: answerImage
                     anchors.left: parent.left
                     anchors.leftMargin: Theme.paddingLarge
                     anchors.top: parent.top
@@ -132,6 +104,53 @@ Page {
                     visible: answerType === 1 ? true : false
                     fillMode: Image.PreserveAspectFit
                 }
+
+
+                Column {
+                    id: textAnswerColumn
+                    anchors.left: answerImage.visible ? answerImage.right : parent.left
+                    anchors.leftMargin: answerImage.visible ? Theme.paddingSmall : Theme.paddingLarge
+                    anchors.right: answerDetailsImage.visible ? answerDetailsImage.left : parent.right
+
+
+                    Label {
+                        id: answerLabel
+
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+
+                        text: answerType === 0 ? answer : ""
+                        visible: answerType === 0 ? true : false
+                        wrapMode: Text.WordWrap
+                        color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
+                    }
+
+                    Label {
+
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+
+                        text: (showAnswerDetails === 1 &&  askImage === '') ? answerDetails : ""
+                        visible: (showAnswerDetails === 1 &&  askImage === '') ? true : false
+                        wrapMode: Text.WordWrap
+                        color: Theme.secondaryColor
+                    }
+                }
+
+                Image {
+                    id: answerDetailsImage
+                    anchors.top: parent.top
+                    anchors.topMargin: Theme.paddingSmall
+                    anchors.bottom: parent.bottom
+                    anchors.bottomMargin: Theme.paddingSmall
+                    anchors.right: parent.right
+                    anchors.rightMargin: Theme.paddingLarge
+
+                    source: askImage !== '' ? answerDetails : ""
+                    visible: (showAnswerDetails === 1 && askImage !== '') ? true : false
+                    fillMode: Image.PreserveAspectFit
+                }
+
             }
 
             onClicked: {

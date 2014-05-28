@@ -118,6 +118,7 @@ function askForFlagOfCountry(answerCount, randomCountries) {
     var question =  {
         ask: qsTr("What is the flag of %1?").arg(randomCountries[searchedAnswer].name),
         answers:    new Array(answerCount),
+        answerDetails:    new Array(answerCount),
         correct: searchedAnswer,
         type: 1,
         questiontype: 0
@@ -125,6 +126,7 @@ function askForFlagOfCountry(answerCount, randomCountries) {
 
     for(var i=0; i<answerCount; i++) {
         question.answers[i] = "../../data/flags/" + randomCountries[i].code.toLowerCase() +".png";
+        question.answerDetails[i] = randomCountries[i].name;
     }
     return question;
 }
@@ -134,6 +136,7 @@ function askForCountryOfFlag(answerCount, randomCountries) {
 
     var question =  {
         ask: qsTr("Which country has this flag?"),
+        answerDetails:    new Array(answerCount),
         image: "../../data/flags/" + randomCountries[searchedAnswer].code.toLowerCase() +".png",
         answers:    new Array(answerCount),
         correct: searchedAnswer,
@@ -143,6 +146,8 @@ function askForCountryOfFlag(answerCount, randomCountries) {
 
     for(var i=0; i<answerCount; i++) {
         question.answers[i] =  randomCountries[i].name;
+        question.answerDetails[i] = "../../data/flags/" + randomCountries[i].code.toLowerCase() +".png";
+
     }
     return question;
 }

@@ -1,10 +1,10 @@
 Name: harbour-sailcountries
 Summary: sailcountries - How good do you know the worlds countries?
-Version: 0.2.0
+Version: 0.2.1
 Release: 1
 Group: Qt/Qt
 URL: http://example.org/
-License:  WTFPL
+License:  MIT License
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
