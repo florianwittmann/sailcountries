@@ -20,6 +20,7 @@ function askForCapitalCity(answerCount, randomCountries) {
     var question =  {
         ask: qsTr("What is the capital city of %1?").arg(randomCountries[searchedAnswer].name),
         answers:    new Array(answerCount),
+        answerDetails:    new Array(answerCount),
         correct: searchedAnswer,
         type: 0,
         questiontype: 0
@@ -27,6 +28,8 @@ function askForCapitalCity(answerCount, randomCountries) {
 
     for(var i=0; i<answerCount; i++) {
         question.answers[i] = randomCountries[i].capital;
+        question.answerDetails[i] = randomCountries[i].name;
+
     }
     return question;
 }
@@ -95,6 +98,7 @@ function askForCountryName(answerCount, randomCountries) {
     var question =  {
         ask: qsTr("%1 is the capital of?").arg(randomCountries[searchedAnswer].capital),
         answers:    new Array(answerCount),
+        answerDetails:    new Array(answerCount),
         correct: searchedAnswer,
         type: 0,
         questiontype: 0
@@ -102,6 +106,8 @@ function askForCountryName(answerCount, randomCountries) {
 
     for(var i=0; i<answerCount; i++) {
         question.answers[i] = randomCountries[i].name;
+        question.answerDetails[i] = randomCountries[i].capital;
+
     }
     return question;
 }
