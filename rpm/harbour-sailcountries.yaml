@@ -1,0 +1,31 @@
+Name: harbour-sailcountries
+Summary: sailcountries - How good do you know the worlds countries?
+Version: 0.2.0
+Release: 1
+Group: Qt/Qt
+URL: http://example.org/
+License:  WTFPL
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  A quiz about the countries of the world.
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- sailfishapp >= 0.0.10
+- Qt5Core
+- Qt5Qml
+- Qt5Quick
+Requires:
+- sailfishsilica-qt5 >= 0.10.9
+Files:
+- '%{_datadir}/%{name}/data'
+- /usr/share/icons/hicolor/86x86/apps
+- /usr/share/applications
+- /usr/share/harbour-sailcountries
+- /usr/bin
+- '%{_datadir}/icons/hicolor/86x86/apps/%{name}.png'
+- '%{_datadir}/applications/%{name}.desktop'
+- '%{_datadir}/%{name}/qml'
+- '%{_bindir}'
+PkgBR: []
