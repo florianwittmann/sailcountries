@@ -24,79 +24,102 @@ Page {
 
     Component.onCompleted: setNextFeaturedCountry()
 
-    PageHeader {
-        id: header
-        title: "SailCountries"
-    }
 
-    Column {
-        anchors.left: parent.left
-        anchors.leftMargin: Theme.paddingLarge
-        anchors.right: parent.right
-        anchors.rightMargin: Theme.paddingLarge
-        anchors.top: header.bottom
-        anchors.topMargin: Theme.paddingLarge
-        spacing: 2
+    SilicaFlickable {
+
+        anchors.fill: parent
+        contentHeight: header.height +  countryColumn.height + buttons.height
 
 
-
-
-        Image {
-            id: countryImage
-            source: ""
-            fillMode: Image.PreserveAspectFit
-            width: parent.width
-            height: welcomePage.height/2.5
-            MouseArea {
-                anchors.fill: parent
-                onClicked: setNextFeaturedCountry()
+        PullDownMenu {
+            MenuItem {
+                text: qsTr("About")
+                onClicked: {
+                    pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
+                }
             }
         }
 
-        Label {
-            id: countryName
-            color: Theme.highlightColor
-            font.bold: true
-            text : ""
+
+        PageHeader {
+            id: header
+            title: "SailCountries"
+        }
+
+        Column {
+            id: countryColumn
+
+            anchors.left: parent.left
+            anchors.leftMargin: Theme.paddingLarge
+            anchors.right: parent.right
+            anchors.rightMargin: Theme.paddingLarge
+            anchors.top: header.bottom
+            anchors.topMargin: Theme.paddingLarge
+            spacing: 2
+
+
+
+
+            Image {
+                id: countryImage
+                source: ""
+                fillMode: Image.PreserveAspectFit
+                width: parent.width
+                height: welcomePage.height/2.5
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: setNextFeaturedCountry()
+                }
+            }
+
+            Label {
+                id: countryName
+                color: Theme.highlightColor
+                font.bold: true
+                text : ""
+            }
+
+
+            Label {
+                id: capitalName
+                text : ""
+            }
+
+
+            Label {
+                id: countrySize
+                text : ""
+            }
+
+            Label {
+                id: countryPopulation
+                text : ""
+            }
+
+
         }
 
 
-        Label {
-            id: capitalName
-            text : ""
+        Column {
+
+            id: buttons
+
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.top: countryColumn.bottom
+            anchors.topMargin: Theme.paddingMedium
+
+            Button {
+               text: qsTr("Start new game")
+               onClicked: pageStack.push(Qt.resolvedUrl("StartGamePage.qml"))
+
+            }
+            Button {
+               text: qsTr("Highscores")
+               onClicked: pageStack.push(Qt.resolvedUrl("ScoresPage.qml"))
+            }
+
         }
-
-
-        Label {
-            id: countrySize
-            text : ""
-        }
-
-        Label {
-            id: countryPopulation
-            text : ""
-        }
-
-
     }
-    Button {
-       anchors.horizontalCenter: parent.horizontalCenter
-       text: qsTr("Start new game")
-       onClicked: pageStack.push(Qt.resolvedUrl("StartGamePage.qml"))
-       anchors.bottom: buttonHighscores.top
-       anchors.bottomMargin: Theme.paddingMedium
-    }
-    Button {
-       id: buttonHighscores
-       anchors.horizontalCenter: parent.horizontalCenter
-       text: qsTr("Highscores")
-       onClicked: pageStack.push(Qt.resolvedUrl("ScoresPage.qml"))
-       anchors.bottom: parent.bottom
-       anchors.bottomMargin: Theme.paddingMedium
-    }
-
-
-
 
 }
 

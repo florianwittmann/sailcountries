@@ -1,4 +1,4 @@
-#ifdef QT_QML_DEBUG
+ #ifdef QT_QML_DEBUG
 #include <QtQuick>
 #endif
 
@@ -27,6 +27,10 @@ int main(int argc, char *argv[])
     app->setOrganizationName("harbour-sailcountries");
 
     view->setTitle("SailCountries");
+
+
+    view->rootContext()->setContextProperty("versionString", "0.2.1");
+
 
     QUrl pageSource = SailfishApp::pathTo("qml/harbour-sailcountries.qml");
     view->setSource(pageSource);

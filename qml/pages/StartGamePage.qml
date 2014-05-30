@@ -22,7 +22,7 @@ Dialog {
         anchors.fill: parent
 
         header: DialogHeader {
-            acceptText: qsTr("Start new game")
+            acceptText: qsTr("Start")
         }
 
         model: VisualItemModel {

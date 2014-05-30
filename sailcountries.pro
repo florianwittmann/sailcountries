@@ -41,7 +41,9 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
     qml/gamemodes.js \
     qml/difficulties.js \
     qml/helper.js \
-    qml/scoresdb.js
+    qml/scoresdb.js \
+    qml/enums.js \
+    qml/pages/AboutPage.qml
 
 HEADERS +=
 
