@@ -3,24 +3,92 @@
 <TS version="2.0" language="en_US">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
+    <name>AboutPage</name>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="24"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <source>A quiz game about the countries of the world.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="58"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="64"/>
+        <source>Source code is licensed under the MIT License (MIT).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="70"/>
+        <source>Contribute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="78"/>
+        <source>Translate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="84"/>
+        <source>Report bugs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="90"/>
+        <source>Donate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="95"/>
+        <source>If you enjoy the game, consider to buy me some beer :-)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="106"/>
+        <source>Paypal EUR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="112"/>
+        <source>Paypal USD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="119"/>
+        <source>Thanks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="124"/>
+        <source>Many thanks to the translators for the help and your comments and likes on both openrepos and the jolla store.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>GameOverPage</name>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="14"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="17"/>
         <source>Game Over</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="21"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="24"/>
         <source>Your score: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="28"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="31"/>
         <source>Name for highscore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="36"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="39"/>
         <source>Save</source>
         <translation type="unfinished"></translation>
     </message>
@@ -28,12 +96,12 @@
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="28"/>
+        <location filename="../qml/pages/GamePage.qml" line="266"/>
         <source>Score: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="77"/>
+        <location filename="../qml/pages/GamePage.qml" line="78"/>
         <source>Cancel current game</source>
         <translation type="unfinished"></translation>
     </message>
@@ -47,18 +115,10 @@
     </message>
 </context>
 <context>
-    <name>SelectLevelPage</name>
-    <message>
-        <location filename="../qml/pages/SelectLevelPage.qml" line="15"/>
-        <source>Select difficulty</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>StartGamePage</name>
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="25"/>
-        <source>Start new game</source>
+        <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -130,12 +190,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="84"/>
+        <location filename="../qml/pages/StartPage.qml" line="36"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="112"/>
         <source>Start new game</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="92"/>
+        <location filename="../qml/pages/StartPage.qml" line="117"/>
         <source>Highscores</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2092,27 +2157,27 @@
     <message>
         <location filename="../qml/difficulties.js" line="2"/>
         <source>Very easy</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="3"/>
         <source>Easy</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="4"/>
         <source>Normal</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="5"/>
         <source>Difficult</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="6"/>
         <source>Hard</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2120,17 +2185,17 @@
     <message>
         <location filename="../qml/gamemodes.js" line="2"/>
         <source>30 questions</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gamemodes.js" line="3"/>
         <source>3 mistakes</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../qml/gamemodes.js" line="4"/>
         <source>60 seconds</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2138,42 +2203,42 @@
     <message>
         <location filename="../qml/questions.js" line="21"/>
         <source>What is the capital city of %1?</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="37"/>
+        <location filename="../qml/questions.js" line="40"/>
         <source>Select the biggest country: </source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="65"/>
+        <location filename="../qml/questions.js" line="68"/>
         <source>Select the smallest country: </source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="96"/>
+        <location filename="../qml/questions.js" line="99"/>
         <source>%1 is the capital of?</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="113"/>
+        <location filename="../qml/questions.js" line="119"/>
         <source>What is the flag of %1?</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="130"/>
+        <location filename="../qml/questions.js" line="138"/>
         <source>Which country has this flag?</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="147"/>
+        <location filename="../qml/questions.js" line="158"/>
         <source>Select the country with the biggest population:</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="177"/>
+        <location filename="../qml/questions.js" line="188"/>
         <source>Select the country with the smallest population:</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>
