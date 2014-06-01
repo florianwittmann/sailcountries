@@ -1,24 +1,92 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="sv_SE" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
+    <name>AboutPage</name>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="24"/>
+        <source>About</source>
+        <translation>Om</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <source>A quiz game about the countries of the world.</source>
+        <translation>Frågesport om världens länder</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="58"/>
+        <source>License</source>
+        <translation>Licens</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="64"/>
+        <source>Source code is licensed under the MIT License (MIT).</source>
+        <translation>Källkoden är licensierad under MIT.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="70"/>
+        <source>Contribute</source>
+        <translation>Medverka</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="78"/>
+        <source>Translate</source>
+        <translation>Översätt</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="84"/>
+        <source>Report bugs</source>
+        <translation>Rapportera fel</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="90"/>
+        <source>Donate</source>
+        <translation>Donera</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="95"/>
+        <source>If you enjoy the game, consider to buy me some beer :-)</source>
+        <translation>Om du gillar spelet kanske du kan överväga att bjuda mig på en öl  :-)</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="106"/>
+        <source>Paypal EUR</source>
+        <translation>Paypal EUR</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="112"/>
+        <source>Paypal USD</source>
+        <translation>Paypal USD</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="119"/>
+        <source>Thanks</source>
+        <translation>Tack</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="124"/>
+        <source>Many thanks to the translators for the help and your comments and likes on both openrepos and the jolla store.</source>
+        <translation>Stort tack till översättarna för deras hjälp, era kommentarer och &quot;likes&quot;, på både OpenRepos och Jolla Store.</translation>
+    </message>
+</context>
+<context>
     <name>GameOverPage</name>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="14"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="17"/>
         <source>Game Over</source>
         <translation>Spelet är slut</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="21"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="24"/>
         <source>Your score: %1</source>
         <translation>Ditt resultat: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="28"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="31"/>
         <source>Name for highscore</source>
         <translation>Namn för toppresultat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="36"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="39"/>
         <source>Save</source>
         <translation>Spara</translation>
     </message>
@@ -26,12 +94,12 @@
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="28"/>
+        <location filename="../qml/pages/GamePage.qml" line="266"/>
         <source>Score: %1</source>
         <translation>Poäng: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="77"/>
+        <location filename="../qml/pages/GamePage.qml" line="78"/>
         <source>Cancel current game</source>
         <translation>Avbryt spelet</translation>
     </message>
@@ -45,19 +113,11 @@
     </message>
 </context>
 <context>
-    <name>SelectLevelPage</name>
-    <message>
-        <location filename="../qml/pages/SelectLevelPage.qml" line="15"/>
-        <source>Select difficulty</source>
-        <translation>Välj svårighetsgrad</translation>
-    </message>
-</context>
-<context>
     <name>StartGamePage</name>
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="25"/>
-        <source>Start new game</source>
-        <translation>Starta nytt spel</translation>
+        <source>Start</source>
+        <translation>Starta</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="34"/>
@@ -128,12 +188,17 @@
         <translation>Population</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="84"/>
+        <location filename="../qml/pages/StartPage.qml" line="36"/>
+        <source>About</source>
+        <translation>Om</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="112"/>
         <source>Start new game</source>
         <translation>Starta nytt spel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="92"/>
+        <location filename="../qml/pages/StartPage.qml" line="117"/>
         <source>Highscores</source>
         <translation>Toppresultat</translation>
     </message>
@@ -2139,37 +2204,37 @@
         <translation>Vad heter huvudstaden i %1?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="37"/>
+        <location filename="../qml/questions.js" line="40"/>
         <source>Select the biggest country: </source>
         <translation>Välj det till ytan största landet: </translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="65"/>
+        <location filename="../qml/questions.js" line="68"/>
         <source>Select the smallest country: </source>
         <translation>Välj det till ytan minsta landet: </translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="96"/>
+        <location filename="../qml/questions.js" line="99"/>
         <source>%1 is the capital of?</source>
         <translation>%1 är huvudstad i?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="113"/>
+        <location filename="../qml/questions.js" line="119"/>
         <source>What is the flag of %1?</source>
         <translation>Vilken flagga tillhör %1?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="130"/>
+        <location filename="../qml/questions.js" line="138"/>
         <source>Which country has this flag?</source>
         <translation>Vilket land tillhör den här flaggan?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="147"/>
+        <location filename="../qml/questions.js" line="158"/>
         <source>Select the country with the biggest population:</source>
         <translation>Välj landet med högst invånarantal:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="177"/>
+        <location filename="../qml/questions.js" line="188"/>
         <source>Select the country with the smallest population:</source>
         <translation>Välj landet med lägst invånarantal:</translation>
     </message>
