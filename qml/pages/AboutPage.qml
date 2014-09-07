@@ -51,7 +51,7 @@ Page {
               text : qsTr("Source code is licensed under the MIT License (MIT).")
             }
             GameLabel {
-              text : qsTr("The font is licensed under SIL Open Font License (OFL).")
+              text : qsTr("The font is licensed under the SIL Open Font License (OFL).")
             }
 
             GameSectionHeader {
