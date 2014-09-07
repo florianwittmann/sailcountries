@@ -13,11 +13,11 @@ Name:       harbour-sailcountries
 %{!?qtc_make:%define qtc_make make}
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    sailcountries - How good do you know the worlds countries?
-Version:    0.2.2
+Version:    0.3.0
 Release:    1
 Group:      Qt/Qt
 License:    MIT License
-URL:        http://example.org/
+URL:        https://openrepos.net/content/forgrimm/sailcountries
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-sailcountries.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9

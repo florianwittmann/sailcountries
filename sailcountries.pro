@@ -43,7 +43,21 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
     qml/helper.js \
     qml/scoresdb.js \
     qml/enums.js \
-    qml/pages/AboutPage.qml
+    qml/pages/AboutPage.qml \
+    qml/images/sailcountries_logo.png \
+    qml/components/GameMenuButton.qml \
+    qml/fonts/peleja-regular-1.0.otf \
+    qml/components/AnswerButton.qml \
+    qml/components/SettingsChooser.qml \
+    qml/components/GamePageHeader.qml \
+    qml/components/GameSectionHeader.qml \
+    qml/components/GameLabel.qml \
+    qml/pages/CountriesList.qml \
+    qml/components/CountryListEntry.qml \
+    qml/pages/CountryDetailPage.qml \
+    qml/pages/LearnCountry.qml \
+    qml/pages/StartLearning.qml \
+    qml/learnmodes.js
 
 HEADERS +=
 
