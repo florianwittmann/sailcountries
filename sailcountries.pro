@@ -52,12 +52,12 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
     qml/components/GamePageHeader.qml \
     qml/components/GameSectionHeader.qml \
     qml/components/GameLabel.qml \
-    qml/pages/CountriesList.qml \
     qml/components/CountryListEntry.qml \
     qml/pages/CountryDetailPage.qml \
-    qml/pages/LearnCountry.qml \
-    qml/pages/StartLearning.qml \
-    qml/learnmodes.js
+    qml/learnmodes.js \
+    qml/pages/CountriesListPage.qml \
+    qml/pages/LearnCountryPage.qml \
+    qml/pages/StartLearningPage.qml
 
 HEADERS +=
 

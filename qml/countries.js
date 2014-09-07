@@ -1327,7 +1327,7 @@ function getCountriesData() {
         name : qsTr("The Vatican City"),
         capital : qsTr("Vatican City"),
         population : 839,
-        area : 044,
+        area : 44,
         code : "VA"
      };
     countries[190] = {
