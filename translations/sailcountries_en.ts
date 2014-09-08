@@ -126,7 +126,7 @@
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="218"/>
+        <location filename="../qml/pages/GamePage.qml" line="215"/>
         <source>Score: %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -149,6 +149,14 @@
     <message>
         <location filename="../qml/pages/ScoresPage.qml" line="21"/>
         <source>Highscores</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="25"/>
+        <source>Font</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -186,7 +194,7 @@
 <context>
     <name>StartPage</name>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="53"/>
+        <location filename="../qml/pages/StartPage.qml" line="59"/>
         <source>About</source>
         <translation type="unfinished"></translation>
     </message>
@@ -208,6 +216,11 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="48"/>
         <source>Countries</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="53"/>
+        <source>Settings</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2267,6 +2280,19 @@
     <message>
         <location filename="../qml/questions.js" line="188"/>
         <source>Select the country with the smallest population:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>setting</name>
+    <message>
+        <location filename="../qml/settings.js" line="4"/>
+        <source>Gamefont</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/settings.js" line="8"/>
+        <source>Themefont</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
