@@ -50,6 +50,12 @@ Page {
             }
 
             GameMenuButton {
+                text: qsTr("Settings")
+                onClicked: {
+                    pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
+                }
+            }
+            GameMenuButton {
                 text: qsTr("About")
                 onClicked: {
                     pageStack.push(Qt.resolvedUrl("AboutPage.qml"))

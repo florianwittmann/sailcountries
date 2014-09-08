@@ -7,8 +7,7 @@ Label {
     anchors.left: parent.left
     anchors.leftMargin: Theme.paddingLarge
     font.pixelSize: Theme.fontSizeMedium
-    font.family: gameMenuFont.name
+    font.family: fontFamilySetting
     color: Theme.secondaryHighlightColor
-    FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
     wrapMode: Text.WordWrap
 }

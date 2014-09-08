@@ -34,7 +34,7 @@ Page {
                     id: scoreLabel
                     text: currentScore
                     font.pixelSize: Theme.fontSizeSmall
-                    font.family: gameMenuFont.name
+                    font.family: fontFamilySetting
                     color: Theme.secondaryHighlightColor
                 }
 
@@ -47,7 +47,7 @@ Page {
                     id: progress
                     text: currentProgress
                     font.pixelSize: Theme.fontSizeSmall
-                    font.family: gameMenuFont.name
+                    font.family: fontFamilySetting
                     color: Theme.secondaryHighlightColor
                 }
             }
@@ -62,7 +62,7 @@ Page {
                 font.bold: true
                 color: Theme.highlightColor
                 text: askText
-                font.family: gameMenuFont.name
+                font.family: fontFamilySetting
             }
             Image {
                 id: askQuestionImage
@@ -117,10 +117,7 @@ Page {
                 }
             }
         }
-        FontLoader {
-            id: gameMenuFont
-            source: "../fonts/peleja-regular-1.0.otf"
-        }
+
 
         MouseArea {
             visible: !isWaitingForAnswer

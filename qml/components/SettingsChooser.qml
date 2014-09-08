@@ -22,7 +22,7 @@ Item {
         wrapMode: Text.WordWrap
         color: Theme.highlightColor
         text: title
-        font.family: gameMenuFont.name
+        font.family: fontFamilySetting
         font.pixelSize: Theme.fontSizeLarge
         horizontalAlignment:Text.AlignHCenter
     }
@@ -35,7 +35,7 @@ Item {
         anchors.rightMargin: Theme.paddingMedium
         wrapMode: Text.WordWrap
         color: Theme.primaryColor
-        font.family: gameMenuFont.name
+        font.family: fontFamilySetting
         font.pixelSize: Theme.fontSizeMedium
         horizontalAlignment:Text.AlignHCenter
         text: choosedSetting
@@ -47,6 +47,5 @@ Item {
         onClicked: root.clicked()
     }
 
-    FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 
 }

@@ -32,7 +32,7 @@ Page {
             anchors.right: parent.right
             id: playerName
             placeholderText: qsTr("Name for highscore")
-            font.family: gameMenuFont.name
+            font.family: fontFamilySetting
             text: Game.playerName;
         }
 
@@ -50,7 +50,6 @@ Page {
 
     }
 
-    FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 
 
 }

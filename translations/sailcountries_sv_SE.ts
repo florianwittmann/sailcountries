@@ -1,49 +1,53 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv_SE" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sv_SE" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="24"/>
+        <location filename="../qml/pages/AboutPage.qml" line="18"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <location filename="../qml/pages/AboutPage.qml" line="42"/>
         <source>A quiz game about the countries of the world.</source>
         <translation>Frågesport om världens länder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="58"/>
+        <location filename="../qml/pages/AboutPage.qml" line="46"/>
         <source>License</source>
         <translation>Licens</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="64"/>
+        <location filename="../qml/pages/AboutPage.qml" line="51"/>
         <source>Source code is licensed under the MIT License (MIT).</source>
         <translation>Källkoden är licensierad under MIT.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="70"/>
+        <location filename="../qml/pages/AboutPage.qml" line="54"/>
+        <source>The font is licensed under the SIL Open Font License (OFL).</source>
+        <translation>Teckensnittet är licensierat under SIL Open Font License (OFL).</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/AboutPage.qml" line="58"/>
         <source>Contribute</source>
         <translation>Medverka</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="78"/>
+        <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>Translate</source>
         <translation>Översätt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="84"/>
+        <location filename="../qml/pages/AboutPage.qml" line="81"/>
         <source>Report bugs</source>
         <translation>Rapportera fel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="90"/>
+        <location filename="../qml/pages/AboutPage.qml" line="87"/>
         <source>Donate</source>
         <translation>Donera</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="95"/>
+        <location filename="../qml/pages/AboutPage.qml" line="91"/>
         <source>If you enjoy the game, consider to buy me some beer :-)</source>
         <translation>Om du gillar spelet kanske du kan överväga att bjuda mig på en öl  :-)</translation>
     </message>
@@ -53,40 +57,66 @@
         <translation>Paypal EUR</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="112"/>
+        <location filename="../qml/pages/AboutPage.qml" line="114"/>
         <source>Paypal USD</source>
         <translation>Paypal USD</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="119"/>
+        <location filename="../qml/pages/AboutPage.qml" line="121"/>
         <source>Thanks</source>
         <translation>Tack</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="124"/>
+        <location filename="../qml/pages/AboutPage.qml" line="126"/>
         <source>Many thanks to the translators for the help and your comments and likes on both openrepos and the jolla store.</source>
         <translation>Stort tack till översättarna för deras hjälp, era kommentarer och &quot;likes&quot;, på både OpenRepos och Jolla Store.</translation>
     </message>
 </context>
 <context>
+    <name>CountriesListPage</name>
+    <message>
+        <location filename="../qml/pages/CountriesListPage.qml" line="12"/>
+        <source>Countries</source>
+        <translation>Länder</translation>
+    </message>
+</context>
+<context>
+    <name>CountryDetailPage</name>
+    <message>
+        <location filename="../qml/pages/CountryDetailPage.qml" line="37"/>
+        <source>capital</source>
+        <translation>Huvudstad</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/CountryDetailPage.qml" line="41"/>
+        <source>size</source>
+        <translation>Storlek</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/CountryDetailPage.qml" line="45"/>
+        <source>population</source>
+        <translation>Population</translation>
+    </message>
+</context>
+<context>
     <name>GameOverPage</name>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="17"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="15"/>
         <source>Game Over</source>
         <translation>Spelet är slut</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="24"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="27"/>
         <source>Your score: %1</source>
         <translation>Ditt resultat: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="31"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="34"/>
         <source>Name for highscore</source>
         <translation>Namn för toppresultat</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="39"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="41"/>
         <source>Save</source>
         <translation>Spara</translation>
     </message>
@@ -94,20 +124,28 @@
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="266"/>
+        <location filename="../qml/pages/GamePage.qml" line="218"/>
         <source>Score: %1</source>
         <translation>Poäng: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="78"/>
+        <location filename="../qml/pages/GamePage.qml" line="84"/>
         <source>Cancel current game</source>
         <translation>Avbryt spelet</translation>
     </message>
 </context>
 <context>
+    <name>LearnCountryPage</name>
+    <message>
+        <location filename="../qml/pages/LearnCountryPage.qml" line="22"/>
+        <source>Stop learning</source>
+        <translation>Avsluta inlärning</translation>
+    </message>
+</context>
+<context>
     <name>ScoresPage</name>
     <message>
-        <location filename="../qml/pages/ScoresPage.qml" line="19"/>
+        <location filename="../qml/pages/ScoresPage.qml" line="21"/>
         <source>Highscores</source>
         <translation>Toppresultat</translation>
     </message>
@@ -115,92 +153,60 @@
 <context>
     <name>StartGamePage</name>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="25"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="82"/>
         <source>Start</source>
         <translation>Starta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="34"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="26"/>
         <source>Game mode</source>
         <translation>Spelläge</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="37"/>
-        <source>30 questions</source>
-        <translation>30 frågor</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="38"/>
-        <source>3 mistakes</source>
-        <translation>3 fel</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="39"/>
-        <source>60 seconds</source>
-        <translation>60 sekunder</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="46"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="57"/>
         <source>Difficulty</source>
         <translation>Svårighetsgrad</translation>
     </message>
+</context>
+<context>
+    <name>StartLearningPage</name>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="50"/>
-        <source>Very easy</source>
-        <translation>Mycket lätt</translation>
+        <location filename="../qml/pages/StartLearningPage.qml" line="24"/>
+        <source>Learn</source>
+        <translation>Inlärning</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="51"/>
-        <source>Easy</source>
-        <translation>Lätt</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="52"/>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="53"/>
-        <source>Difficult</source>
-        <translation>Svår</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="54"/>
-        <source>Hard</source>
-        <translation>Mycket svår</translation>
+        <location filename="../qml/pages/StartLearningPage.qml" line="47"/>
+        <source>Start</source>
+        <translation>Starta</translation>
     </message>
 </context>
 <context>
     <name>StartPage</name>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="16"/>
-        <source>capital</source>
-        <translation>Huvudstad</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartPage.qml" line="17"/>
-        <source>size</source>
-        <translation>Storlek</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartPage.qml" line="18"/>
-        <source>population</source>
-        <translation>Population</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/StartPage.qml" line="36"/>
+        <location filename="../qml/pages/StartPage.qml" line="53"/>
         <source>About</source>
         <translation>Om</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="112"/>
+        <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Start new game</source>
         <translation>Starta nytt spel</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="117"/>
+        <location filename="../qml/pages/StartPage.qml" line="38"/>
         <source>Highscores</source>
         <translation>Toppresultat</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="43"/>
+        <source>Learn</source>
+        <translation>Inlärning</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="48"/>
+        <source>Countries</source>
+        <translation>Länder</translation>
     </message>
 </context>
 <context>
@@ -2153,27 +2159,27 @@
 <context>
     <name>difficultie</name>
     <message>
-        <location filename="../qml/difficulties.js" line="2"/>
+        <location filename="../qml/difficulties.js" line="5"/>
         <source>Very easy</source>
         <translation>Mycket lätt</translation>
     </message>
     <message>
-        <location filename="../qml/difficulties.js" line="3"/>
+        <location filename="../qml/difficulties.js" line="10"/>
         <source>Easy</source>
         <translation>Lätt</translation>
     </message>
     <message>
-        <location filename="../qml/difficulties.js" line="4"/>
+        <location filename="../qml/difficulties.js" line="15"/>
         <source>Normal</source>
         <translation>Normal</translation>
     </message>
     <message>
-        <location filename="../qml/difficulties.js" line="5"/>
+        <location filename="../qml/difficulties.js" line="20"/>
         <source>Difficult</source>
         <translation>Svår</translation>
     </message>
     <message>
-        <location filename="../qml/difficulties.js" line="6"/>
+        <location filename="../qml/difficulties.js" line="25"/>
         <source>Hard</source>
         <translation>Mycket svår</translation>
     </message>
@@ -2181,19 +2187,42 @@
 <context>
     <name>gamemode</name>
     <message>
-        <location filename="../qml/gamemodes.js" line="2"/>
+        <location filename="../qml/gamemodes.js" line="5"/>
         <source>30 questions</source>
         <translation>30 frågor</translation>
     </message>
     <message>
-        <location filename="../qml/gamemodes.js" line="3"/>
+        <location filename="../qml/gamemodes.js" line="10"/>
         <source>3 mistakes</source>
         <translation>3 fel</translation>
     </message>
     <message>
-        <location filename="../qml/gamemodes.js" line="4"/>
+        <location filename="../qml/gamemodes.js" line="15"/>
         <source>60 seconds</source>
         <translation>60 sekunder</translation>
+    </message>
+</context>
+<context>
+    <name>learnmode</name>
+    <message>
+        <location filename="../qml/learnmodes.js" line="4"/>
+        <source>capitals</source>
+        <translation>Huvudstäder</translation>
+    </message>
+    <message>
+        <location filename="../qml/learnmodes.js" line="8"/>
+        <source>flags</source>
+        <translation>Flaggor</translation>
+    </message>
+    <message>
+        <location filename="../qml/learnmodes.js" line="12"/>
+        <source>populations</source>
+        <translation>Populationer</translation>
+    </message>
+    <message>
+        <location filename="../qml/learnmodes.js" line="16"/>
+        <source>areas</source>
+        <translation>Arealer</translation>
     </message>
 </context>
 <context>

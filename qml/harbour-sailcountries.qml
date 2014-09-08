@@ -4,9 +4,14 @@ import "pages"
 import "cover"
 
 import "game.js" as Game
+import "settingsdb.js" as SettingsDb
 
 ApplicationWindow
 {
+
+    property int fontFamilySettingIndex : parseInt(SettingsDb.get("font","0"))
+
+    property string fontFamilySetting : fontFamilySettingIndex === 0 ? gameMenuFont.name : Theme.fontFamily
     initialPage: Component { StartPage { } }
     cover: Qt.resolvedUrl("cover/CoverPage.qml")
 
@@ -23,6 +28,8 @@ ApplicationWindow
     GameOverPage {
       id: gameOverPage
     }
+
+    FontLoader { id: gameMenuFont; source: "fonts/peleja-regular-1.0.otf" }
 
 
 }

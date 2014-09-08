@@ -55,7 +55,7 @@ Rectangle {
                             }
                             horizontalAlignment:Text.AlignHCenter
                             font.pixelSize: Theme.fontSizeMedium
-                            font.family: gameMenuFont.name
+                            font.family: fontFamilySetting
                             text: answerType === 0 ? answer : ""
                             visible: answerType === 0 ? true : false
                             wrapMode: Text.WordWrap
@@ -73,7 +73,7 @@ Rectangle {
                             wrapMode: Text.WordWrap
                             color: Theme.highlightColor
                             font.pixelSize: Theme.fontSizeSmall
-                            font.family: gameMenuFont.name
+                            font.family: fontFamilySetting
                         }
                     }
                     Item {
@@ -116,6 +116,5 @@ Rectangle {
                 }
             }
 
-            FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 
 }

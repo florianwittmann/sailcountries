@@ -21,10 +21,6 @@ Page {
             text: qsTr("Highscores")
         }
 
-
-
-        FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
-
         Column {
             width: page.width
             id: col
@@ -40,7 +36,7 @@ Page {
                 for (var j = 0; j < Gamemodes.gamemodes.length; j++) {
 
                     Qt.createQmlObject(
-                                'import QtQuick 2.0; import Sailfish.Silica 1.0; Label {font.pixelSize: Theme.fontSizeLarge;font.family: gameMenuFont.name; color: Theme.highlightColor;text:"'
+                                'import QtQuick 2.0; import Sailfish.Silica 1.0; Label {font.pixelSize: Theme.fontSizeLarge;font.family: fontFamilySetting; color: Theme.highlightColor;text:"'
                                 + Game.gamemodes[j].name + '"}',
                                 col, "dynamicSnippet")
 
@@ -53,7 +49,7 @@ Page {
                     }
 
                     Qt.createQmlObject(
-                                'import QtQuick 2.0; import Sailfish.Silica 1.0; Label {font.pixelSize: Theme.fontSizeSmall;font.family: gameMenuFont.name;color: Theme.secondaryHighlightColor; text:"' + scores + '";}',
+                                'import QtQuick 2.0; import Sailfish.Silica 1.0; Label {font.pixelSize: Theme.fontSizeSmall;font.family: fontFamilySetting;color: Theme.secondaryHighlightColor; text:"' + scores + '";}',
                                 col, "dynamicSnippet")
                 }
                 return scores

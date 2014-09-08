@@ -7,7 +7,6 @@ Label {
     anchors.right: parent.right
     anchors.rightMargin: Theme.paddingLarge
     font.pixelSize: Theme.fontSizeSmall
-    font.family: gameMenuFont.name
+    font.family: fontFamilySetting
     color: Theme.highlightColor
-    FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 }

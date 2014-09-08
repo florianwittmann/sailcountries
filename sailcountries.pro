@@ -57,7 +57,10 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
     qml/learnmodes.js \
     qml/pages/CountriesListPage.qml \
     qml/pages/LearnCountryPage.qml \
-    qml/pages/StartLearningPage.qml
+    qml/pages/StartLearningPage.qml \
+    qml/settingsdb.js \
+    qml/pages/SettingsPage.qml \
+    qml/settings.js
 
 HEADERS +=
 
@@ -73,6 +76,5 @@ SOURCES = qml/harbour-sailcountries.qml \
 
 RESOURCES +=
 
-TRANSLATIONS = translations/sailcountries_en.ts \
-            translations/sailcountries_de.ts
+TRANSLATIONS = translations/sailcountries_en.ts
 

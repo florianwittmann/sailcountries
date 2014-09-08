@@ -32,7 +32,7 @@ Rectangle {
                                 right: parent.right
                             }
                             font.pixelSize: Theme.fontSizeSmall
-                            font.family: gameMenuFont.name
+                            font.family: fontFamilySetting
                             text: name
                             wrapMode: Text.WordWrap
                             color: Theme.primaryColor
@@ -47,7 +47,7 @@ Rectangle {
                             wrapMode: Text.WordWrap
                             color: Theme.highlightColor
                             font.pixelSize: Theme.fontSizeSmall
-                            font.family: gameMenuFont.name
+                            font.family: fontFamilySetting
                         }
                     }
                     Image {
@@ -71,6 +71,5 @@ Rectangle {
                 }
             }
 
-            FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 
 }

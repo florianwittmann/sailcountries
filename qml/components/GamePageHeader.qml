@@ -12,10 +12,9 @@ Label {
     horizontalAlignment:Text.AlignRight
 
     font.pixelSize: Theme.fontSizeLarge
-    font.family: gameMenuFont.name
+    font.family: fontFamilySetting
     color: Theme.highlightColor
     wrapMode: Text.WordWrap
 
-    FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 
 }

@@ -24,7 +24,7 @@ Rectangle {
     Label {
         id: label
         font.pixelSize: fontSize
-        font.family: gameMenuFont.name
+        font.family: fontFamilySetting
 
         anchors {
             left: parent.left
@@ -43,6 +43,4 @@ Rectangle {
         anchors.fill: parent
         onClicked: root.clicked()
     }
-
-    FontLoader { id: gameMenuFont; source: "../fonts/peleja-regular-1.0.otf" }
 }
