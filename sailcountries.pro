@@ -8,8 +8,6 @@
 #         - icon definition filename in desktop file must be changed
 TARGET = harbour-sailcountries
 
-# the following 3 lines add the files in the local folder data to /usr/share/parkmeecrazy/data
-# similar is done already in the sailfishapp.prf for the qml folder
 data.files = data
 data.path = /usr/share/$${TARGET}
 
