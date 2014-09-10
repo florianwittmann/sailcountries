@@ -2286,7 +2286,7 @@
     <message>
         <location filename="../qml/settings.js" line="4"/>
         <source>Gamefont</source>
-        <translation>Spielspezifsche Schriftart</translation>
+        <translation>Spielspezifische Schriftart</translation>
     </message>
     <message>
         <location filename="../qml/settings.js" line="8"/>
