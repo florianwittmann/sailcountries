@@ -9,7 +9,7 @@ import "settingsdb.js" as SettingsDb
 ApplicationWindow
 {
 
-    property int fontFamilySettingIndex : parseInt(SettingsDb.get("font","0"))
+    property int fontFamilySettingIndex : parseInt(SettingsDb.get("font","1"))
 
     property string fontFamilySetting : fontFamilySettingIndex === 0 ? gameMenuFont.name : Theme.fontFamily
     initialPage: Component { StartPage { } }
