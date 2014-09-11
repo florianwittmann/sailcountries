@@ -7,7 +7,7 @@ import "../scoresdb.js" as ScoresDB
 
 
 Page {
-    id: page
+    id: gameOverPage
 
 
     GamePageHeader {

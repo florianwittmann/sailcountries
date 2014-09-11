@@ -41,12 +41,12 @@ Page {
 
             GameMenuButton {
                text: qsTr("Learn")
-               onClicked: pageStack.push(Qt.resolvedUrl("StartLearning.qml"))
+               onClicked: pageStack.push(Qt.resolvedUrl("StartLearningPage.qml"))
             }
 
             GameMenuButton {
                text: qsTr("Countries")
-               onClicked: pageStack.push(Qt.resolvedUrl("CountriesList.qml"))
+               onClicked: pageStack.push(Qt.resolvedUrl("CountriesListPage.qml"))
             }
 
             GameMenuButton {

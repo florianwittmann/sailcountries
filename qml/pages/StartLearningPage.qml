@@ -7,7 +7,7 @@ import "../learnmodes.js" as Learnmodes
 
 Page {
 
-    id: startNewGamePage
+    id: startLearningPage
     property bool isChooseLearnModeVisible: true
 
     Column {

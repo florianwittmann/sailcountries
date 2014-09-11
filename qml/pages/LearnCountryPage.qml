@@ -9,7 +9,7 @@ import "../scoresdb.js" as ScoresDB
 
 
 Page {
-    id: page
+    id: learnCountryPage
     property var country : getNextFeaturedCountry()
     property int learnMode : 0
     property string learnModeTitle : ""

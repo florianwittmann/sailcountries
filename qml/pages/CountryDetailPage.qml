@@ -9,7 +9,7 @@ import "../scoresdb.js" as ScoresDB
 
 
 Page {
-    id: page
+    id: countryDetail
     property var country
 
     GamePageHeader {

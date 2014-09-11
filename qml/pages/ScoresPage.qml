@@ -8,7 +8,7 @@ import "../scoresdb.js" as ScoresDB
 
 
 Page {
-    id: page
+    id: scoresPage
 
     SilicaFlickable {
         id: flickable

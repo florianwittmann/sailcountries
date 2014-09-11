@@ -5,7 +5,7 @@ import "../countries.js" as Countries
 
 Page {
 
-    id: aboutPage
+    id: countryListPage
 
     GamePageHeader {
         id: header
