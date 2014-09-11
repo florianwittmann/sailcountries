@@ -14,7 +14,7 @@ Name:       harbour-sailcountries
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    sailcountries - How good do you know the worlds countries?
 Version:    0.3.3
-Release:    1
+Release:    2
 Group:      Qt/Qt
 License:    MIT License
 URL:        https://openrepos.net/content/forgrimm/sailcountries

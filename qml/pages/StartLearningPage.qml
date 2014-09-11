@@ -47,7 +47,7 @@ Page {
         text: qsTr("Start")
         visible: !isChooseLearnModeVisible
         onClicked: {
-            pageStack.replaceAbove(null, Qt.resolvedUrl("LearnCountry.qml"),{"learnMode":learnMode.currentIndex,"learnModeTitle":learnMode.choosedSetting})
+            pageStack.replaceAbove(null, Qt.resolvedUrl("LearnCountryPage.qml"),{"learnMode":learnMode.currentIndex,"learnModeTitle":learnMode.choosedSetting})
         }
     }
 
