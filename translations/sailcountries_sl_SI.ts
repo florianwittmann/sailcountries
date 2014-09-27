@@ -1,55 +1,55 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fr" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sl_SI" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="18"/>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>O igri</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="42"/>
         <source>A quiz game about the countries of the world.</source>
-        <translation>Un jeu de quizz sur les pays du monde.</translation>
+        <translation>Kviz o državah sveta.</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="46"/>
         <source>License</source>
-        <translation>Licence</translation>
+        <translation>Licenca</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="51"/>
         <source>Source code is licensed under the MIT License (MIT).</source>
-        <translation>Le code source est sous Licence MIT (MIT).</translation>
+        <translation>Izvirna koda programa je licencirana pod licenco MIT License (MIT).</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="54"/>
         <source>The font is licensed under the SIL Open Font License (OFL).</source>
-        <translation>La police est sous licence SIL Open Font License (OFL)</translation>
+        <translation>Pisava je licencirana pod licenco SIL Open Font License (OFL).</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="58"/>
         <source>Contribute</source>
-        <translation>Contribuer</translation>
+        <translation>Prispevaj</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="73"/>
         <source>Translate</source>
-        <translation>Traduire</translation>
+        <translation>Prevedi</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="81"/>
         <source>Report bugs</source>
-        <translation>Rapporter les bugs</translation>
+        <translation>Prijavi napake</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="87"/>
         <source>Donate</source>
-        <translation>Faire un don</translation>
+        <translation>Doniraj</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="91"/>
         <source>If you enjoy the game, consider to buy me some beer :-)</source>
-        <translation>Si vous appréciez le jeu, faites-le moi savoir en me payant une bière :-)</translation>
+        <translation>Če ste uživali v igri, mi lahko kupite kako pivo. :-)</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="106"/>
@@ -64,12 +64,12 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="121"/>
         <source>Thanks</source>
-        <translation>Merci !</translation>
+        <translation>Hvala</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="126"/>
         <source>Many thanks to the translators for the help and your comments and likes on both openrepos and the jolla store.</source>
-        <translation>Un grand merci aux traducteurs pour leur aide et vos commentaires et &quot;likes&quot; sur Openrepos et le Jolla Store.</translation>
+        <translation>Hvala lepa prevajalcem za pomoč ter vašim komentarjem na openrepos in v jolla store.</translation>
     </message>
 </context>
 <context>
@@ -77,7 +77,7 @@
     <message>
         <location filename="../qml/pages/CountriesListPage.qml" line="12"/>
         <source>Countries</source>
-        <translation>Pays</translation>
+        <translation>Države</translation>
     </message>
 </context>
 <context>
@@ -85,17 +85,17 @@
     <message>
         <location filename="../qml/pages/CountryDetailPage.qml" line="37"/>
         <source>capital</source>
-        <translation>capitale</translation>
+        <translation>glavno mesto</translation>
     </message>
     <message>
         <location filename="../qml/pages/CountryDetailPage.qml" line="41"/>
         <source>size</source>
-        <translation>superficie</translation>
+        <translation>velikost</translation>
     </message>
     <message>
         <location filename="../qml/pages/CountryDetailPage.qml" line="45"/>
         <source>population</source>
-        <translation>population</translation>
+        <translation>prebivalstvo</translation>
     </message>
 </context>
 <context>
@@ -103,22 +103,22 @@
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="15"/>
         <source>Game Over</source>
-        <translation>Fin de la partie</translation>
+        <translation>Konec igre</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="27"/>
         <source>Your score: %1</source>
-        <translation>Votre score : %1</translation>
+        <translation>Vaš rezultat: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="34"/>
         <source>Name for highscore</source>
-        <translation>Nom pour le classement</translation>
+        <translation>Ime za najboljše rezultate</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="41"/>
         <source>Save</source>
-        <translation>Enregistrer</translation>
+        <translation>Shrani</translation>
     </message>
 </context>
 <context>
@@ -126,12 +126,12 @@
     <message>
         <location filename="../qml/pages/GamePage.qml" line="215"/>
         <source>Score: %1</source>
-        <translation>Score : %1</translation>
+        <translation>Rezultat: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/GamePage.qml" line="84"/>
         <source>Cancel current game</source>
-        <translation>Annuler la partie en cours</translation>
+        <translation>Prekini trenutno igro</translation>
     </message>
 </context>
 <context>
@@ -139,7 +139,7 @@
     <message>
         <location filename="../qml/pages/LearnCountryPage.qml" line="22"/>
         <source>Stop learning</source>
-        <translation>Quitter l&apos;apprentissage</translation>
+        <translation>Prenehaj z učenjem</translation>
     </message>
 </context>
 <context>
@@ -147,7 +147,7 @@
     <message>
         <location filename="../qml/pages/ScoresPage.qml" line="21"/>
         <source>Highscores</source>
-        <translation>Classements</translation>
+        <translation>Najboljši rezultati</translation>
     </message>
 </context>
 <context>
@@ -155,7 +155,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="25"/>
         <source>Font</source>
-        <translation>Police</translation>
+        <translation>Pisava (font)</translation>
     </message>
 </context>
 <context>
@@ -163,17 +163,17 @@
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="82"/>
         <source>Start</source>
-        <translation>Commencer</translation>
+        <translation>Začni</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="26"/>
         <source>Game mode</source>
-        <translation>Mode de jeu</translation>
+        <translation>Igralni način</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="57"/>
         <source>Difficulty</source>
-        <translation>Difficulté</translation>
+        <translation>Težavnost</translation>
     </message>
 </context>
 <context>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../qml/pages/StartLearningPage.qml" line="24"/>
         <source>Learn</source>
-        <translation>Apprentissage</translation>
+        <translation>Nauči se</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartLearningPage.qml" line="47"/>
         <source>Start</source>
-        <translation>Commencer</translation>
+        <translation>Začni</translation>
     </message>
 </context>
 <context>
@@ -194,32 +194,32 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="59"/>
         <source>About</source>
-        <translation>À propos</translation>
+        <translation>O igri</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Start new game</source>
-        <translation>Commencer une nouvelle partie</translation>
+        <translation>Začni novo igro</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="38"/>
         <source>Highscores</source>
-        <translation>Classements</translation>
+        <translation>Najboljši rezultati</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="43"/>
         <source>Learn</source>
-        <translation>Apprentissage</translation>
+        <translation>Nauči se</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="48"/>
         <source>Countries</source>
-        <translation>Pays</translation>
+        <translation>Države</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="53"/>
         <source>Settings</source>
-        <translation>Paramètres</translation>
+        <translation>Nastavitve</translation>
     </message>
 </context>
 <context>
@@ -227,17 +227,17 @@
     <message>
         <location filename="../qml/countries.js" line="4"/>
         <source>Afghanistan</source>
-        <translation>Afghanistan</translation>
+        <translation>Afganistan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="5"/>
         <source>Kabul</source>
-        <translation>Kaboul</translation>
+        <translation>Kabul</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="11"/>
         <source>Albania</source>
-        <translation>Albanie</translation>
+        <translation>Albanija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="12"/>
@@ -247,22 +247,22 @@
     <message>
         <location filename="../qml/countries.js" line="18"/>
         <source>Algeria</source>
-        <translation>Algérie</translation>
+        <translation>Alžirija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="19"/>
         <source>Algiers</source>
-        <translation>Alger</translation>
+        <translation>Alžir</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="25"/>
         <source>Andorra</source>
-        <translation>Andorre</translation>
+        <translation>Andora</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="26"/>
         <source>Andorra la Vella</source>
-        <translation>Andorre-la-Vieille</translation>
+        <translation>Andorra la Vella</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="32"/>
@@ -277,17 +277,17 @@
     <message>
         <location filename="../qml/countries.js" line="39"/>
         <source>Antigua and Barbuda</source>
-        <translation>Antigua-et-Barbuda</translation>
+        <translation>Antigva in Barbuda</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="40"/>
         <source>St. John&apos;s</source>
-        <translation>Saint-John&apos;s</translation>
+        <translation>St. John&apos;s</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="46"/>
         <source>Argentina</source>
-        <translation>Argentine</translation>
+        <translation>Argentina</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="47"/>
@@ -297,7 +297,7 @@
     <message>
         <location filename="../qml/countries.js" line="53"/>
         <source>Armenia</source>
-        <translation>Arménie</translation>
+        <translation>Armenija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="54"/>
@@ -307,7 +307,7 @@
     <message>
         <location filename="../qml/countries.js" line="60"/>
         <source>Australia</source>
-        <translation>Australie</translation>
+        <translation>Avstralija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="61"/>
@@ -317,27 +317,27 @@
     <message>
         <location filename="../qml/countries.js" line="67"/>
         <source>Austria</source>
-        <translation>Autriche</translation>
+        <translation>Avstrija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="68"/>
         <source>Vienna</source>
-        <translation>Vienne</translation>
+        <translation>Dunaj</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="74"/>
         <source>Azerbaijan</source>
-        <translation>Azerbaïdjan</translation>
+        <translation>Azerbajdžan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="75"/>
         <source>Baku</source>
-        <translation>Bakou</translation>
+        <translation>Baku</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="81"/>
         <source>The Bahamas</source>
-        <translation>Bahamas</translation>
+        <translation>Bahami</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="82"/>
@@ -347,7 +347,7 @@
     <message>
         <location filename="../qml/countries.js" line="88"/>
         <source>Bahrain</source>
-        <translation>Bahreïn</translation>
+        <translation>Bahrajn</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="89"/>
@@ -357,17 +357,17 @@
     <message>
         <location filename="../qml/countries.js" line="95"/>
         <source>Bangladesh</source>
-        <translation>Bangladesh</translation>
+        <translation>Bangladeš</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="96"/>
         <source>Dhaka</source>
-        <translation>Dacca</translation>
+        <translation>Daka</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="102"/>
         <source>Barbados</source>
-        <translation>Barbade</translation>
+        <translation>Barbados</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="103"/>
@@ -377,7 +377,7 @@
     <message>
         <location filename="../qml/countries.js" line="109"/>
         <source>Belarus</source>
-        <translation>Biélorussie</translation>
+        <translation>Belorusija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="110"/>
@@ -387,17 +387,17 @@
     <message>
         <location filename="../qml/countries.js" line="116"/>
         <source>Belgium</source>
-        <translation>Belgique</translation>
+        <translation>Belgija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="117"/>
         <source>Brussels</source>
-        <translation>Bruxelles</translation>
+        <translation>Bruselj</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="123"/>
         <source>Belize</source>
-        <translation>Bélize</translation>
+        <translation>Belize</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="124"/>
@@ -407,7 +407,7 @@
     <message>
         <location filename="../qml/countries.js" line="130"/>
         <source>Benin</source>
-        <translation>Bénin</translation>
+        <translation>Benin</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="131"/>
@@ -417,17 +417,17 @@
     <message>
         <location filename="../qml/countries.js" line="137"/>
         <source>Bhutan</source>
-        <translation>Bhoutan</translation>
+        <translation>Butan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="138"/>
         <source>Thimphu</source>
-        <translation>Thimphou</translation>
+        <translation>Timpu</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="144"/>
         <source>Bolivia</source>
-        <translation>Bolivie</translation>
+        <translation>Bolivija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="145"/>
@@ -437,7 +437,7 @@
     <message>
         <location filename="../qml/countries.js" line="151"/>
         <source>Bosnia and Herzegovina</source>
-        <translation>Bosnie-Herzégovine</translation>
+        <translation>Bosna in Hercegovina</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="152"/>
@@ -447,7 +447,7 @@
     <message>
         <location filename="../qml/countries.js" line="158"/>
         <source>Botswana</source>
-        <translation>Botswana</translation>
+        <translation>Bocvana</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="159"/>
@@ -457,7 +457,7 @@
     <message>
         <location filename="../qml/countries.js" line="165"/>
         <source>Brazil</source>
-        <translation>Brésil</translation>
+        <translation>Brazilija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="166"/>
@@ -467,7 +467,7 @@
     <message>
         <location filename="../qml/countries.js" line="172"/>
         <source>Brunei</source>
-        <translation>Brunei</translation>
+        <translation>Brunej</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="173"/>
@@ -477,12 +477,12 @@
     <message>
         <location filename="../qml/countries.js" line="179"/>
         <source>Bulgaria</source>
-        <translation>Bulgarie</translation>
+        <translation>Bolgarija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="180"/>
         <source>Sofia</source>
-        <translation>Sofia</translation>
+        <translation>Sofija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="186"/>
@@ -507,7 +507,7 @@
     <message>
         <location filename="../qml/countries.js" line="200"/>
         <source>Cambodia</source>
-        <translation>Cambodge</translation>
+        <translation>Kambodža</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="201"/>
@@ -517,7 +517,7 @@
     <message>
         <location filename="../qml/countries.js" line="207"/>
         <source>Cameroon</source>
-        <translation>Cameroun</translation>
+        <translation>Kamerun</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="208"/>
@@ -527,7 +527,7 @@
     <message>
         <location filename="../qml/countries.js" line="214"/>
         <source>Canada</source>
-        <translation>Canada</translation>
+        <translation>Kanada</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="215"/>
@@ -537,7 +537,7 @@
     <message>
         <location filename="../qml/countries.js" line="221"/>
         <source>Cape Verde</source>
-        <translation>Cap-Vert</translation>
+        <translation>Zelenortski otoki</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="222"/>
@@ -547,7 +547,7 @@
     <message>
         <location filename="../qml/countries.js" line="228"/>
         <source>The Central African Republic</source>
-        <translation>République Centrafricaine</translation>
+        <translation>Srednjeafriška republika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="229"/>
@@ -557,17 +557,17 @@
     <message>
         <location filename="../qml/countries.js" line="235"/>
         <source>Chad</source>
-        <translation>Tchad</translation>
+        <translation>Čad</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="236"/>
         <source>N&apos;Djamena</source>
-        <translation>Ndjamena</translation>
+        <translation>N&apos;Djamena</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="242"/>
         <source>Chile</source>
-        <translation>Chili</translation>
+        <translation>Čile</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="243"/>
@@ -577,7 +577,7 @@
     <message>
         <location filename="../qml/countries.js" line="249"/>
         <source>Colombia</source>
-        <translation>Colombie</translation>
+        <translation>Kolumbija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="250"/>
@@ -587,7 +587,7 @@
     <message>
         <location filename="../qml/countries.js" line="256"/>
         <source>The Comoros</source>
-        <translation>Comores</translation>
+        <translation>Komori</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="257"/>
@@ -597,7 +597,7 @@
     <message>
         <location filename="../qml/countries.js" line="263"/>
         <source>Costa Rica</source>
-        <translation>Costa Rica</translation>
+        <translation>Kostarika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="264"/>
@@ -607,7 +607,7 @@
     <message>
         <location filename="../qml/countries.js" line="270"/>
         <source>Cote d&apos;Ivoire</source>
-        <translation>Côte d&apos;Ivoire</translation>
+        <translation>Slonokoščena obala</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="271"/>
@@ -617,7 +617,7 @@
     <message>
         <location filename="../qml/countries.js" line="277"/>
         <source>Croatia</source>
-        <translation>Croatie</translation>
+        <translation>Hrvaška</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="278"/>
@@ -627,63 +627,63 @@
     <message>
         <location filename="../qml/countries.js" line="284"/>
         <source>Cuba</source>
-        <translation>Cuba</translation>
+        <translation>Kuba</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="285"/>
         <source>Havana</source>
-        <translation>La Havane</translation>
+        <translation>Havana</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="291"/>
         <source>Cyprus</source>
-        <translation>Chypre</translation>
+        <translation>Ciper</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="292"/>
         <source>Nicosia</source>
-        <translation>Nicosie</translation>
+        <translation>Nikozija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="298"/>
         <source>The Czech Republic</source>
-        <translation>République Tchèque</translation>
+        <translation>Češka</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="299"/>
         <source>Prague</source>
-        <translation>Prague</translation>
+        <translation>Praga</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="305"/>
         <source>The Democratic Republic of the Congo</source>
-        <translation>République Démocratique du Congo</translation>
+        <translation>Demokratična republika Kongo</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="306"/>
         <source>Kinshasa</source>
-        <translation>Kinshasa</translation>
+        <translation>Kinšasa</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="312"/>
         <source>Denmark</source>
-        <translation>Danemark</translation>
+        <translation>Danska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="313"/>
         <source>Copenhagen</source>
-        <translation>Copenhague</translation>
+        <translation>København</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="319"/>
         <location filename="../qml/countries.js" line="320"/>
         <source>Djibouti</source>
-        <translation>Djibouti</translation>
+        <translation>Džibuti</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="326"/>
         <source>Dominica</source>
-        <translation>Dominique</translation>
+        <translation>Dominika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="327"/>
@@ -693,17 +693,17 @@
     <message>
         <location filename="../qml/countries.js" line="333"/>
         <source>The Dominican Republic</source>
-        <translation>République Dominicaine</translation>
+        <translation>Dominikanska republika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="334"/>
         <source>Santo Domingo</source>
-        <translation>Saint Domingue</translation>
+        <translation>Santo Domingo</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="340"/>
         <source>East Timor</source>
-        <translation>Timor Oriental</translation>
+        <translation>Vzhodni Timor</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="341"/>
@@ -713,7 +713,7 @@
     <message>
         <location filename="../qml/countries.js" line="347"/>
         <source>Ecuador</source>
-        <translation>Équateur</translation>
+        <translation>Ekvador</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="348"/>
@@ -723,12 +723,12 @@
     <message>
         <location filename="../qml/countries.js" line="354"/>
         <source>Egypt</source>
-        <translation>Égypte</translation>
+        <translation>Egipt</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="355"/>
         <source>Cairo</source>
-        <translation>Le Caire</translation>
+        <translation>Kairo</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="361"/>
@@ -743,7 +743,7 @@
     <message>
         <location filename="../qml/countries.js" line="368"/>
         <source>Equatorial Guinea</source>
-        <translation>Guinée Équatoriale</translation>
+        <translation>Ekvatorialna Gvineja</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="369"/>
@@ -753,7 +753,7 @@
     <message>
         <location filename="../qml/countries.js" line="375"/>
         <source>Eritrea</source>
-        <translation>Érythrée</translation>
+        <translation>Eritreja</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="376"/>
@@ -763,27 +763,27 @@
     <message>
         <location filename="../qml/countries.js" line="382"/>
         <source>Estonia</source>
-        <translation>Estonie</translation>
+        <translation>Estonija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="383"/>
         <source>Tallinn</source>
-        <translation>Tallinn</translation>
+        <translation>Talin</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="389"/>
         <source>Ethiopia</source>
-        <translation>Éthiopie</translation>
+        <translation>Etiopija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="390"/>
         <source>Addis Ababa</source>
-        <translation>Addis Ababa</translation>
+        <translation>Adis Abeba</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="396"/>
         <source>Fiji</source>
-        <translation>Fidji</translation>
+        <translation>Fidži</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="397"/>
@@ -793,7 +793,7 @@
     <message>
         <location filename="../qml/countries.js" line="403"/>
         <source>Finland</source>
-        <translation>Finlande</translation>
+        <translation>Finska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="404"/>
@@ -803,12 +803,12 @@
     <message>
         <location filename="../qml/countries.js" line="410"/>
         <source>France</source>
-        <translation>France</translation>
+        <translation>Francija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="411"/>
         <source>Paris</source>
-        <translation>Paris</translation>
+        <translation>Pariz</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="417"/>
@@ -823,7 +823,7 @@
     <message>
         <location filename="../qml/countries.js" line="424"/>
         <source>The Gambia</source>
-        <translation>Gambie</translation>
+        <translation>Gambija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="425"/>
@@ -833,17 +833,17 @@
     <message>
         <location filename="../qml/countries.js" line="431"/>
         <source>Georgia</source>
-        <translation>Géorgie</translation>
+        <translation>Gruzija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="432"/>
         <source>Tbilisi</source>
-        <translation>Tbilissi</translation>
+        <translation>Tbilisi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="438"/>
         <source>Germany</source>
-        <translation>Allemagne</translation>
+        <translation>Nemčija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="439"/>
@@ -853,47 +853,47 @@
     <message>
         <location filename="../qml/countries.js" line="445"/>
         <source>Ghana</source>
-        <translation>Ghana</translation>
+        <translation>Gana</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="446"/>
         <source>Accra</source>
-        <translation>Accra</translation>
+        <translation>Akra</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="452"/>
         <source>Greece</source>
-        <translation>Grèce</translation>
+        <translation>Grčija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="453"/>
         <source>Athens</source>
-        <translation>Athènes</translation>
+        <translation>Atene</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="459"/>
         <source>Grenada</source>
-        <translation>Grenade</translation>
+        <translation>Grenada</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="460"/>
         <source>St. George&apos;s</source>
-        <translation>Saint-Georges</translation>
+        <translation>St. George&apos;s</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="466"/>
         <source>Guatemala</source>
-        <translation>Guatemala</translation>
+        <translation>Gvatemala</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="467"/>
         <source>Guatemala City</source>
-        <translation>Guatemala</translation>
+        <translation>Ciudad Guatemala</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="473"/>
         <source>Guinea</source>
-        <translation>Guinée</translation>
+        <translation>Gvineja</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="474"/>
@@ -903,7 +903,7 @@
     <message>
         <location filename="../qml/countries.js" line="480"/>
         <source>Guinea-Bissau</source>
-        <translation>Guinée-Bissau</translation>
+        <translation>Gvineja Bissau</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="481"/>
@@ -913,7 +913,7 @@
     <message>
         <location filename="../qml/countries.js" line="487"/>
         <source>Guyana</source>
-        <translation>Guyana</translation>
+        <translation>Gvajana</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="488"/>
@@ -923,7 +923,7 @@
     <message>
         <location filename="../qml/countries.js" line="494"/>
         <source>Haiti</source>
-        <translation>Haïti</translation>
+        <translation>Haiti</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="495"/>
@@ -943,17 +943,17 @@
     <message>
         <location filename="../qml/countries.js" line="508"/>
         <source>Hungary</source>
-        <translation>Hongrie</translation>
+        <translation>Madžarska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="509"/>
         <source>Budapest</source>
-        <translation>Budapest</translation>
+        <translation>Budimpešta</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="515"/>
         <source>Iceland</source>
-        <translation>Islande</translation>
+        <translation>Islandija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="516"/>
@@ -963,7 +963,7 @@
     <message>
         <location filename="../qml/countries.js" line="522"/>
         <source>India</source>
-        <translation>Inde</translation>
+        <translation>Indija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="523"/>
@@ -973,12 +973,12 @@
     <message>
         <location filename="../qml/countries.js" line="529"/>
         <source>Indonesia</source>
-        <translation>Indonésie</translation>
+        <translation>Indonezija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="530"/>
         <source>Jakarta</source>
-        <translation>Jakarta</translation>
+        <translation>Džakarta</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="536"/>
@@ -988,7 +988,7 @@
     <message>
         <location filename="../qml/countries.js" line="537"/>
         <source>Tehran</source>
-        <translation>Téhéran</translation>
+        <translation>Teheran</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="543"/>
@@ -998,12 +998,12 @@
     <message>
         <location filename="../qml/countries.js" line="544"/>
         <source>Baghdad</source>
-        <translation>Baghdad</translation>
+        <translation>Bagdad</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="550"/>
         <source>Ireland</source>
-        <translation>Irlande</translation>
+        <translation>Irska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="551"/>
@@ -1013,27 +1013,27 @@
     <message>
         <location filename="../qml/countries.js" line="557"/>
         <source>Israel</source>
-        <translation>Israël</translation>
+        <translation>Izrael</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="558"/>
         <source>Jerusalem</source>
-        <translation>Jérusalem</translation>
+        <translation>Jeruzalem</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="564"/>
         <source>Italy</source>
-        <translation>Italie</translation>
+        <translation>Italija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="565"/>
         <source>Rome</source>
-        <translation>Rome</translation>
+        <translation>Rim</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="571"/>
         <source>Jamaica</source>
-        <translation>Jamaïque</translation>
+        <translation>Jamajka</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="572"/>
@@ -1043,27 +1043,27 @@
     <message>
         <location filename="../qml/countries.js" line="578"/>
         <source>Japan</source>
-        <translation>Japon</translation>
+        <translation>Japonska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="579"/>
         <source>Tokyo</source>
-        <translation>Tokyo</translation>
+        <translation>Tokio</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="585"/>
         <source>Jordan</source>
-        <translation>Jordanie</translation>
+        <translation>Jordanija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="586"/>
         <source>Amman</source>
-        <translation>Amman</translation>
+        <translation>Aman</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="592"/>
         <source>Kazakhstan</source>
-        <translation>Kazakhstan</translation>
+        <translation>Kazahstan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="593"/>
@@ -1073,7 +1073,7 @@
     <message>
         <location filename="../qml/countries.js" line="599"/>
         <source>Kenya</source>
-        <translation>Kenya</translation>
+        <translation>Kenija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="600"/>
@@ -1088,7 +1088,7 @@
     <message>
         <location filename="../qml/countries.js" line="607"/>
         <source>South Tarawa</source>
-        <translation>Tarawa-Sud</translation>
+        <translation>Tarawa</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="613"/>
@@ -1098,27 +1098,27 @@
     <message>
         <location filename="../qml/countries.js" line="614"/>
         <source>Pristina</source>
-        <translation>Pristina</translation>
+        <translation>Priština</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="620"/>
         <source>Kuwait</source>
-        <translation>Koweït</translation>
+        <translation>Kuvajt</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="621"/>
         <source>Kuwait City</source>
-        <translation>Koweït</translation>
+        <translation>Kuvajt</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="627"/>
         <source>Kyrgyzstan</source>
-        <translation>Kirghizistan</translation>
+        <translation>Kirgizistan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="628"/>
         <source>Bishkek</source>
-        <translation>Bishkek</translation>
+        <translation>Biškek</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="634"/>
@@ -1128,12 +1128,12 @@
     <message>
         <location filename="../qml/countries.js" line="635"/>
         <source>Vientiane</source>
-        <translation>Vientiane</translation>
+        <translation>Vientjan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="641"/>
         <source>Latvia</source>
-        <translation>Lettonie</translation>
+        <translation>Latvija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="642"/>
@@ -1143,17 +1143,17 @@
     <message>
         <location filename="../qml/countries.js" line="648"/>
         <source>Lebanon</source>
-        <translation>Liban</translation>
+        <translation>Libanon</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="649"/>
         <source>Beirut</source>
-        <translation>Beyrouth</translation>
+        <translation>Bejrut</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="655"/>
         <source>Lesotho</source>
-        <translation>Lesotho</translation>
+        <translation>Lesoto</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="656"/>
@@ -1163,7 +1163,7 @@
     <message>
         <location filename="../qml/countries.js" line="662"/>
         <source>Liberia</source>
-        <translation>Libéria</translation>
+        <translation>Liberija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="663"/>
@@ -1173,7 +1173,7 @@
     <message>
         <location filename="../qml/countries.js" line="669"/>
         <source>Libya</source>
-        <translation>Libye</translation>
+        <translation>Libija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="670"/>
@@ -1183,7 +1183,7 @@
     <message>
         <location filename="../qml/countries.js" line="676"/>
         <source>Liechtenstein</source>
-        <translation>Liechtenstein</translation>
+        <translation>Lihtenštajn</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="677"/>
@@ -1193,27 +1193,27 @@
     <message>
         <location filename="../qml/countries.js" line="683"/>
         <source>Lithuania</source>
-        <translation>Lituanie</translation>
+        <translation>Litva</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="684"/>
         <source>Vilnius</source>
-        <translation>Vilnius</translation>
+        <translation>Vilna</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="690"/>
         <source>Luxembourg</source>
-        <translation>Luxembourg</translation>
+        <translation>Luksemburg</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="691"/>
         <source>Luxembourg City</source>
-        <translation>Luxembourg</translation>
+        <translation>Luksemburg</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="697"/>
         <source>Macedonia</source>
-        <translation>Macédoine</translation>
+        <translation>Makedonija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="698"/>
@@ -1223,7 +1223,7 @@
     <message>
         <location filename="../qml/countries.js" line="704"/>
         <source>Madagascar</source>
-        <translation>Madagascar</translation>
+        <translation>Madagaskar</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="705"/>
@@ -1233,7 +1233,7 @@
     <message>
         <location filename="../qml/countries.js" line="711"/>
         <source>Malawi</source>
-        <translation>Malawi</translation>
+        <translation>Malavi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="712"/>
@@ -1243,7 +1243,7 @@
     <message>
         <location filename="../qml/countries.js" line="718"/>
         <source>Malaysia</source>
-        <translation>Malaisie</translation>
+        <translation>Malezija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="719"/>
@@ -1253,7 +1253,7 @@
     <message>
         <location filename="../qml/countries.js" line="725"/>
         <source>Maldives</source>
-        <translation>Maldives</translation>
+        <translation>Maldivi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="726"/>
@@ -1273,17 +1273,17 @@
     <message>
         <location filename="../qml/countries.js" line="739"/>
         <source>Malta</source>
-        <translation>Malte</translation>
+        <translation>Malta</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="740"/>
         <source>Valletta</source>
-        <translation>La Valette</translation>
+        <translation>Valletta</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="746"/>
         <source>The Marshall Islands</source>
-        <translation>Îles Marshall</translation>
+        <translation>Marshallovi otoki</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="747"/>
@@ -1293,7 +1293,7 @@
     <message>
         <location filename="../qml/countries.js" line="753"/>
         <source>Mauritania</source>
-        <translation>Mauritanie</translation>
+        <translation>Mavretanija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="754"/>
@@ -1303,7 +1303,7 @@
     <message>
         <location filename="../qml/countries.js" line="760"/>
         <source>Mauritius</source>
-        <translation>Île Maurice</translation>
+        <translation>Mauritius</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="761"/>
@@ -1313,17 +1313,17 @@
     <message>
         <location filename="../qml/countries.js" line="767"/>
         <source>Mexico</source>
-        <translation>Mexique</translation>
+        <translation>Mehika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="768"/>
         <source>Mexico City</source>
-        <translation>Mexico</translation>
+        <translation>Ciudad de México</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="774"/>
         <source>Micronesia</source>
-        <translation>Micronésie</translation>
+        <translation>Mikronezija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="775"/>
@@ -1333,43 +1333,43 @@
     <message>
         <location filename="../qml/countries.js" line="781"/>
         <source>Moldova</source>
-        <translation>Moldavie</translation>
+        <translation>Moldavija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="782"/>
         <source>Chisinau</source>
-        <translation>Chisinau</translation>
+        <translation>Kišnijev</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="788"/>
         <location filename="../qml/countries.js" line="789"/>
         <source>Monaco</source>
-        <translation>Monaco</translation>
+        <translation>Monako</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="795"/>
         <source>Mongolia</source>
-        <translation>Mongolie</translation>
+        <translation>Mongolija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="796"/>
         <source>Ulaanbaatar</source>
-        <translation>Ulaanbaatar</translation>
+        <translation>Ulan Bator</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="802"/>
         <source>Montenegro</source>
-        <translation>Monténégro</translation>
+        <translation>Črna gora</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="803"/>
         <source>Podgorica</source>
-        <translation>Pogdorica</translation>
+        <translation>Podgorica</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="809"/>
         <source>Morocco</source>
-        <translation>Maroc</translation>
+        <translation>Maroko</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="810"/>
@@ -1379,7 +1379,7 @@
     <message>
         <location filename="../qml/countries.js" line="816"/>
         <source>Mozambique</source>
-        <translation>Mozambique</translation>
+        <translation>Mozambik</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="817"/>
@@ -1389,17 +1389,17 @@
     <message>
         <location filename="../qml/countries.js" line="823"/>
         <source>Myanmar</source>
-        <translation>Birmanie</translation>
+        <translation>Mjanmar</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="824"/>
         <source>Naypyidaw</source>
-        <translation>Naypyidaw</translation>
+        <translation>Najpjidav</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="830"/>
         <source>Namibia</source>
-        <translation>Namibie</translation>
+        <translation>Namibija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="831"/>
@@ -1419,17 +1419,17 @@
     <message>
         <location filename="../qml/countries.js" line="844"/>
         <source>Nepal</source>
-        <translation>Népal</translation>
+        <translation>Nepal</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="845"/>
         <source>Kathmandu</source>
-        <translation>Katmandou</translation>
+        <translation>Katmandu</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="851"/>
         <source>The Netherlands</source>
-        <translation>Pays-Bas</translation>
+        <translation>Nizozemska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="852"/>
@@ -1439,7 +1439,7 @@
     <message>
         <location filename="../qml/countries.js" line="858"/>
         <source>New Zealand</source>
-        <translation>Nouvelle-Zélande</translation>
+        <translation>Nova Zelandija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="859"/>
@@ -1449,7 +1449,7 @@
     <message>
         <location filename="../qml/countries.js" line="865"/>
         <source>Nicaragua</source>
-        <translation>Nicaragua</translation>
+        <translation>Nikaragva</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="866"/>
@@ -1469,7 +1469,7 @@
     <message>
         <location filename="../qml/countries.js" line="879"/>
         <source>Nigeria</source>
-        <translation>Nigéria</translation>
+        <translation>Nigerija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="880"/>
@@ -1479,17 +1479,17 @@
     <message>
         <location filename="../qml/countries.js" line="886"/>
         <source>North Korea</source>
-        <translation>Corée du Nord</translation>
+        <translation>Severna Koreja</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="887"/>
         <source>Pyongyang (P&apos;yŏngyang)</source>
-        <translation>Pyongyang (P&apos;yŏngyang)</translation>
+        <translation>Pjongjang</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="893"/>
         <source>Norway</source>
-        <translation>Norvège</translation>
+        <translation>Norveška</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="894"/>
@@ -1504,7 +1504,7 @@
     <message>
         <location filename="../qml/countries.js" line="901"/>
         <source>Muscat</source>
-        <translation>Mascate</translation>
+        <translation>Muškat</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="907"/>
@@ -1519,7 +1519,7 @@
     <message>
         <location filename="../qml/countries.js" line="914"/>
         <source>Palau</source>
-        <translation>République des Palaos</translation>
+        <translation>Palau</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="915"/>
@@ -1534,12 +1534,12 @@
     <message>
         <location filename="../qml/countries.js" line="922"/>
         <source>Panama City</source>
-        <translation>Panama</translation>
+        <translation>Panamá</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="928"/>
         <source>Papua New Guinea</source>
-        <translation>Papouasie-Nouvelle-Guinée</translation>
+        <translation>Papua Nova Gvineja</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="929"/>
@@ -1549,27 +1549,27 @@
     <message>
         <location filename="../qml/countries.js" line="935"/>
         <source>Paraguay</source>
-        <translation>Paraguay</translation>
+        <translation>Paragvaj</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="936"/>
         <source>Asunción</source>
-        <translation>Asuncion</translation>
+        <translation>Asunción</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="942"/>
         <source>The People&apos;s Republic of China</source>
-        <translation>République Populaire de Chine</translation>
+        <translation>Ljudska republika Kitajska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="943"/>
         <source>Beijing</source>
-        <translation>Pékin</translation>
+        <translation>Peking</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="949"/>
         <source>Peru</source>
-        <translation>Pérou</translation>
+        <translation>Peru</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="950"/>
@@ -1579,37 +1579,37 @@
     <message>
         <location filename="../qml/countries.js" line="956"/>
         <source>The Philippines</source>
-        <translation>Philippines</translation>
+        <translation>Filipini</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="957"/>
         <source>Manila</source>
-        <translation>Manille</translation>
+        <translation>Manila</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="963"/>
         <source>Poland</source>
-        <translation>Pologne</translation>
+        <translation>Poljska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="964"/>
         <source>Warsaw</source>
-        <translation>Varsovie</translation>
+        <translation>Varšava</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="970"/>
         <source>Portugal</source>
-        <translation>Portugal</translation>
+        <translation>Portugalska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="971"/>
         <source>Lisbon</source>
-        <translation>Lisbonne</translation>
+        <translation>Lizbona</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="977"/>
         <source>Qatar</source>
-        <translation>Qatar</translation>
+        <translation>Katar</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="978"/>
@@ -1619,17 +1619,17 @@
     <message>
         <location filename="../qml/countries.js" line="984"/>
         <source>The Republic of China</source>
-        <translation>Taïwan</translation>
+        <translation>Republika Kitajska (Tajvan)</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="985"/>
         <source>Taipei</source>
-        <translation>Taipei</translation>
+        <translation>Tajpej</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="991"/>
         <source>The Republic of the Congo</source>
-        <translation>République du Congo</translation>
+        <translation>Republika Kongo</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="992"/>
@@ -1639,27 +1639,27 @@
     <message>
         <location filename="../qml/countries.js" line="998"/>
         <source>Romania</source>
-        <translation>Roumanie</translation>
+        <translation>Romunija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="999"/>
         <source>Bucharest</source>
-        <translation>Bucarest</translation>
+        <translation>Bukarešta</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1005"/>
         <source>Russia</source>
-        <translation>Russie</translation>
+        <translation>Rusija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1006"/>
         <source>Moscow</source>
-        <translation>Moscou</translation>
+        <translation>Moskva</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1012"/>
         <source>Rwanda</source>
-        <translation>Rwanda</translation>
+        <translation>Ruanda</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1013"/>
@@ -1669,7 +1669,7 @@
     <message>
         <location filename="../qml/countries.js" line="1019"/>
         <source>Saint Kitts and Nevis</source>
-        <translation>Saint-Christophe-et-Niévès</translation>
+        <translation>Saint Kitts in Nevis</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1020"/>
@@ -1679,7 +1679,7 @@
     <message>
         <location filename="../qml/countries.js" line="1026"/>
         <source>Saint Lucia</source>
-        <translation>Sainte-Lucie</translation>
+        <translation>Saint Lucia</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1027"/>
@@ -1689,7 +1689,7 @@
     <message>
         <location filename="../qml/countries.js" line="1033"/>
         <source>Saint Vincent and the Grenadines</source>
-        <translation>Saint-Vincent-et-les-Grenadines</translation>
+        <translation>Saint Vincent in Grenadine</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1034"/>
@@ -1710,32 +1710,32 @@
         <location filename="../qml/countries.js" line="1047"/>
         <location filename="../qml/countries.js" line="1048"/>
         <source>San Marino</source>
-        <translation>Saint Marin</translation>
+        <translation>San Marin</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1054"/>
         <source>Sao Tome and Principe</source>
-        <translation>Sao Tomé et Principe</translation>
+        <translation>Sao Tome in Principe</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1055"/>
         <source>São Tomé</source>
-        <translation>São Tomé</translation>
+        <translation>Sao Tome</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1061"/>
         <source>Saudi Arabia</source>
-        <translation>Arabie Saoudite</translation>
+        <translation>Saudova Arabija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1062"/>
         <source>Riyadh</source>
-        <translation>Riyad</translation>
+        <translation>Rijad</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1068"/>
         <source>Senegal</source>
-        <translation>Sénégal</translation>
+        <translation>Senegal</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1069"/>
@@ -1745,17 +1745,17 @@
     <message>
         <location filename="../qml/countries.js" line="1075"/>
         <source>Serbia</source>
-        <translation>Serbie</translation>
+        <translation>Srbija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1076"/>
         <source>Belgrade</source>
-        <translation>Belgrade</translation>
+        <translation>Beograd</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1082"/>
         <source>The Seychelles</source>
-        <translation>Seychelles</translation>
+        <translation>Sejšeli</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1083"/>
@@ -1776,12 +1776,12 @@
         <location filename="../qml/countries.js" line="1096"/>
         <location filename="../qml/countries.js" line="1097"/>
         <source>Singapore</source>
-        <translation>Singapour</translation>
+        <translation>Singapur</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1103"/>
         <source>Slovakia</source>
-        <translation>Slovaquie</translation>
+        <translation>Slovaška</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1104"/>
@@ -1791,7 +1791,7 @@
     <message>
         <location filename="../qml/countries.js" line="1110"/>
         <source>Slovenia</source>
-        <translation>Slovénie</translation>
+        <translation>Slovenija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1111"/>
@@ -1801,7 +1801,7 @@
     <message>
         <location filename="../qml/countries.js" line="1117"/>
         <source>The Solomon Islands</source>
-        <translation>Îles Salomon</translation>
+        <translation>Salomonovi otoki</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1118"/>
@@ -1811,37 +1811,37 @@
     <message>
         <location filename="../qml/countries.js" line="1124"/>
         <source>Somalia</source>
-        <translation>Somalie</translation>
+        <translation>Somalija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1125"/>
         <source>Mogadishu</source>
-        <translation>Mogadiscio</translation>
+        <translation>Mogadiš</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1131"/>
         <source>South Africa</source>
-        <translation>Afrique du Sud</translation>
+        <translation>Republika Južna Afrika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1132"/>
         <source>Pretoria</source>
-        <translation>Prétoria</translation>
+        <translation>Pretoria</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1138"/>
         <source>South Korea</source>
-        <translation>Corée du Sud</translation>
+        <translation>Južna Koreja</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1139"/>
         <source>Seoul</source>
-        <translation>Séoul</translation>
+        <translation>Seul</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1145"/>
         <source>Spain</source>
-        <translation>Espagne</translation>
+        <translation>Španija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1146"/>
@@ -1851,27 +1851,27 @@
     <message>
         <location filename="../qml/countries.js" line="1152"/>
         <source>Sri Lanka</source>
-        <translation>Sri Lanka</translation>
+        <translation>Šrilanka</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1153"/>
         <source>Colombo</source>
-        <translation>Colombo</translation>
+        <translation>Kolombo/Kotte</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1159"/>
         <source>Sudan</source>
-        <translation>Soudan</translation>
+        <translation>Sudan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1160"/>
         <source>Khartoum</source>
-        <translation>Khartoum</translation>
+        <translation>Kartum</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1166"/>
         <source>Suriname</source>
-        <translation>Suriname</translation>
+        <translation>Surinam</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1167"/>
@@ -1881,7 +1881,7 @@
     <message>
         <location filename="../qml/countries.js" line="1173"/>
         <source>Swaziland</source>
-        <translation>Swaziland</translation>
+        <translation>Svazi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1174"/>
@@ -1891,7 +1891,7 @@
     <message>
         <location filename="../qml/countries.js" line="1180"/>
         <source>Sweden</source>
-        <translation>Suède</translation>
+        <translation>Švedska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1181"/>
@@ -1901,37 +1901,37 @@
     <message>
         <location filename="../qml/countries.js" line="1187"/>
         <source>Switzerland</source>
-        <translation>Suisse</translation>
+        <translation>Švica</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1188"/>
         <source>Bern</source>
-        <translation>Berne</translation>
+        <translation>Bern</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1194"/>
         <source>Syria</source>
-        <translation>Syrie</translation>
+        <translation>Sirija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1195"/>
         <source>Damascus</source>
-        <translation>Damas</translation>
+        <translation>Damask</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1201"/>
         <source>Tajikistan</source>
-        <translation>Tajikistan</translation>
+        <translation>Tadžikistan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1202"/>
         <source>Dushanbe</source>
-        <translation>Douchanbé</translation>
+        <translation>Dušanbe</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1208"/>
         <source>Tanzania</source>
-        <translation>Tanzanie</translation>
+        <translation>Tanzanija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1209"/>
@@ -1941,7 +1941,7 @@
     <message>
         <location filename="../qml/countries.js" line="1215"/>
         <source>Thailand</source>
-        <translation>Thaïlande</translation>
+        <translation>Tajska</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1216"/>
@@ -1956,7 +1956,7 @@
     <message>
         <location filename="../qml/countries.js" line="1223"/>
         <source>Lomé</source>
-        <translation>Lomé</translation>
+        <translation>Lome</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1229"/>
@@ -1971,17 +1971,17 @@
     <message>
         <location filename="../qml/countries.js" line="1236"/>
         <source>Trinidad and Tobago</source>
-        <translation>Trinidad et Tobago</translation>
+        <translation>Trinidad in Tobago</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1237"/>
         <source>Port of Spain</source>
-        <translation>Port d&apos;Espagne</translation>
+        <translation>Port of Spain</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1243"/>
         <source>Tunisia</source>
-        <translation>Tunisie</translation>
+        <translation>Tunizija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1244"/>
@@ -1991,7 +1991,7 @@
     <message>
         <location filename="../qml/countries.js" line="1250"/>
         <source>Turkey</source>
-        <translation>Turquie</translation>
+        <translation>Turčija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1251"/>
@@ -2001,12 +2001,12 @@
     <message>
         <location filename="../qml/countries.js" line="1257"/>
         <source>Turkmenistan</source>
-        <translation>Turkménistan</translation>
+        <translation>Turkmenistan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1258"/>
         <source>Ashgabat</source>
-        <translation>Achgabat</translation>
+        <translation>Ašhabad</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1264"/>
@@ -2021,7 +2021,7 @@
     <message>
         <location filename="../qml/countries.js" line="1271"/>
         <source>Uganda</source>
-        <translation>Ouganda</translation>
+        <translation>Uganda</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1272"/>
@@ -2031,47 +2031,47 @@
     <message>
         <location filename="../qml/countries.js" line="1278"/>
         <source>Ukraine</source>
-        <translation>Ukraine</translation>
+        <translation>Ukrajina</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1279"/>
         <source>Kiev (Kyiv)</source>
-        <translation>Kiev (Kyiv)</translation>
+        <translation>Kijev</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1285"/>
         <source>The United Arab Emirates</source>
-        <translation>Émirats Arabes Unis</translation>
+        <translation>Združeni arabski emirati</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1286"/>
         <source>Abu Dhabi</source>
-        <translation>Abou Dhabi</translation>
+        <translation>Abu Dabi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1292"/>
         <source>The United Kingdom</source>
-        <translation>Royaume-Uni</translation>
+        <translation>Združeno kraljestvo</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1293"/>
         <source>London</source>
-        <translation>Londres</translation>
+        <translation>London</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1299"/>
         <source>The United States</source>
-        <translation>Etats-Unis</translation>
+        <translation>Združene države Amerike</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1300"/>
         <source>Washington, District of Columbia</source>
-        <translation>Washington, District de Columbia</translation>
+        <translation>Washington</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1306"/>
         <source>Uruguay</source>
-        <translation>Uruguay</translation>
+        <translation>Urugvaj</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1307"/>
@@ -2081,12 +2081,12 @@
     <message>
         <location filename="../qml/countries.js" line="1313"/>
         <source>Uzbekistan</source>
-        <translation>Ouzbékistan</translation>
+        <translation>Uzbekistan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1314"/>
         <source>Tashkent</source>
-        <translation>Tachkent</translation>
+        <translation>Taškent</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1320"/>
@@ -2096,17 +2096,17 @@
     <message>
         <location filename="../qml/countries.js" line="1321"/>
         <source>Port Vila</source>
-        <translation>Port-Vila</translation>
+        <translation>Port Vila</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1327"/>
         <source>The Vatican City</source>
-        <translation>Vatican</translation>
+        <translation>Vatikan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1328"/>
         <source>Vatican City</source>
-        <translation>Vatican</translation>
+        <translation>Vatikan</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1334"/>
@@ -2126,32 +2126,32 @@
     <message>
         <location filename="../qml/countries.js" line="1342"/>
         <source>Hanoi</source>
-        <translation>Hanoï</translation>
+        <translation>Hanoi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1348"/>
         <source>Western Sahara</source>
-        <translation>Sahara occidental</translation>
+        <translation>Zahodna Sahara</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1349"/>
         <source>Laayoune</source>
-        <translation>Laâyoune</translation>
+        <translation>Laayoune (El Aaiún)</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1355"/>
         <source>Yemen</source>
-        <translation>Yémen</translation>
+        <translation>Jemen</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1356"/>
         <source>Sanaá</source>
-        <translation>Sanaa</translation>
+        <translation>Sana</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1362"/>
         <source>Zambia</source>
-        <translation>Zambie</translation>
+        <translation>Zambija</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1363"/>
@@ -2161,7 +2161,7 @@
     <message>
         <location filename="../qml/countries.js" line="1369"/>
         <source>Zimbabwe</source>
-        <translation>Zimbabwe</translation>
+        <translation>Zimbabve</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1370"/>
@@ -2174,27 +2174,27 @@
     <message>
         <location filename="../qml/difficulties.js" line="5"/>
         <source>Very easy</source>
-        <translation>Très facile</translation>
+        <translation>Zelo lahko</translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="10"/>
         <source>Easy</source>
-        <translation>Facile</translation>
+        <translation>Lahko</translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="15"/>
         <source>Normal</source>
-        <translation>Normal</translation>
+        <translation>Srednje</translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="20"/>
         <source>Difficult</source>
-        <translation>Difficile</translation>
+        <translation>Težko</translation>
     </message>
     <message>
         <location filename="../qml/difficulties.js" line="25"/>
         <source>Hard</source>
-        <translation>Très difficile</translation>
+        <translation>Zelo težko</translation>
     </message>
 </context>
 <context>
@@ -2202,17 +2202,17 @@
     <message>
         <location filename="../qml/gamemodes.js" line="5"/>
         <source>30 questions</source>
-        <translation>30 questions</translation>
+        <translation>30 vprašanj</translation>
     </message>
     <message>
         <location filename="../qml/gamemodes.js" line="10"/>
         <source>3 mistakes</source>
-        <translation>3 erreurs</translation>
+        <translation>3 napake</translation>
     </message>
     <message>
         <location filename="../qml/gamemodes.js" line="15"/>
         <source>60 seconds</source>
-        <translation>60 secondes</translation>
+        <translation>60 sekund</translation>
     </message>
 </context>
 <context>
@@ -2220,22 +2220,22 @@
     <message>
         <location filename="../qml/learnmodes.js" line="4"/>
         <source>capitals</source>
-        <translation>Capitales</translation>
+        <translation>glavna mesta</translation>
     </message>
     <message>
         <location filename="../qml/learnmodes.js" line="8"/>
         <source>flags</source>
-        <translation>Drapeaux</translation>
+        <translation>zastave</translation>
     </message>
     <message>
         <location filename="../qml/learnmodes.js" line="12"/>
         <source>populations</source>
-        <translation>Population</translation>
+        <translation>prebivalstva</translation>
     </message>
     <message>
         <location filename="../qml/learnmodes.js" line="16"/>
         <source>areas</source>
-        <translation>Superficies</translation>
+        <translation>površine</translation>
     </message>
 </context>
 <context>
@@ -2243,42 +2243,42 @@
     <message>
         <location filename="../qml/questions.js" line="21"/>
         <source>What is the capital city of %1?</source>
-        <translation>Quelle est la capitale de ce pays : %1 ?</translation>
+        <translation>Katero je glavno mesto države %1?</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="40"/>
         <source>Select the biggest country: </source>
-        <translation>Quel est en superficie le plus grand pays ?</translation>
+        <translation>Izberi največjo državo po površini:</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="68"/>
         <source>Select the smallest country: </source>
-        <translation>Quel est en superficie le plus petit pays ?</translation>
+        <translation>Izberi najmanjšo državo po površini:</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="99"/>
         <source>%1 is the capital of?</source>
-        <translation>A quel pays correspond cette capitale : %1 ?</translation>
+        <translation>%1 je glavno mesto katere države?</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="119"/>
         <source>What is the flag of %1?</source>
-        <translation>Quel est le drapeau de ce pays : %1 ?</translation>
+        <translation>Kakšna je zastava države %1?</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="138"/>
         <source>Which country has this flag?</source>
-        <translation>A quel pays correspond ce drapeau ?</translation>
+        <translation>Katera država ima to zastavo?</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="158"/>
         <source>Select the country with the biggest population:</source>
-        <translation>Sélectionner le pays avec la plus grande population :</translation>
+        <translation>Izberi državo z največjim številom prebivalcev:</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="188"/>
         <source>Select the country with the smallest population:</source>
-        <translation>Sélectionner le pays avec la plus petite population :</translation>
+        <translation>Izberi državo z najmanjšim številom prebivalcev:</translation>
     </message>
 </context>
 <context>
@@ -2286,12 +2286,12 @@
     <message>
         <location filename="../qml/settings.js" line="4"/>
         <source>Gamefont</source>
-        <translation>Police de Jeu</translation>
+        <translation>Privzeta pisava igre</translation>
     </message>
     <message>
         <location filename="../qml/settings.js" line="8"/>
         <source>Themefont</source>
-        <translation>Police du thème</translation>
+        <translation>Pisava teme (Sailfish ambience)</translation>
     </message>
 </context>
 </TS>

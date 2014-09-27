@@ -2243,7 +2243,7 @@
     <message>
         <location filename="../qml/questions.js" line="21"/>
         <source>What is the capital city of %1?</source>
-        <translation>Mikä on maan nimeltä &amp;1 pääkaupunki?</translation>
+        <translation>Mikä on maan nimeltä %1 pääkaupunki?</translation>
     </message>
     <message>
         <location filename="../qml/questions.js" line="40"/>
