@@ -56,7 +56,7 @@ function selectTheBiggestCountry(answerCount, randomCountries) {
             currentCorrect = i;
         }
         question.answers[i] = randomCountries[i].name;
-        question.answerDetails[i] = prettifyNumber(randomCountries[i].area) + ' sq km';
+        question.answerDetails[i] = prettifyNumber(randomCountries[i].area) + ' km\u00B2';
     }
     question.correct = currentCorrect;
     return question;
@@ -84,7 +84,7 @@ function selectTheSmallestCountry(answerCount, randomCountries) {
         }
 
         question.answers[i] = randomCountries[i].name;
-        question.answerDetails[i] = prettifyNumber(randomCountries[i].area) + ' sq km';
+        question.answerDetails[i] = prettifyNumber(randomCountries[i].area) + ' km\u00B2';
     }
     question.correct = currentCorrect;
     return question;
