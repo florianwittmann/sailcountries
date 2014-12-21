@@ -23,12 +23,11 @@ Page {
         clip: true
         VerticalScrollDecorator {}
         model: countriesModel
-        delegate {
-            CountryListEntry {
-                onClicked:
-                    pageStack.push(Qt.resolvedUrl("CountryDetailPage.qml"),{"country":model})
-            }
-        }
+       delegate:
+           CountryListEntry {
+            onClicked:pageStack.push(Qt.resolvedUrl("CountryDetailPage.qml"),{"country":model})
+           }
+
 
     }
     ListModel {
