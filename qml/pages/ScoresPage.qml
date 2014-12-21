@@ -10,16 +10,24 @@ import "../scoresdb.js" as ScoresDB
 Page {
     id: scoresPage
 
+    GamePageHeader {
+        id: header
+        text: qsTr("Highscores")
+    }
+
     SilicaFlickable {
         id: flickable
-        anchors.fill: parent
+        anchors {
+            top: header.bottom
+            topMargin: Theme.paddingLarge
+            bottom: parent.bottom
+            left: parent.left
+            right: parent.right
+        }
+        clip: true
         contentWidth: col.width
         contentHeight: col.height + col.y
 
-        GamePageHeader {
-            id: header
-            text: qsTr("Highscores")
-        }
 
         Column {
             width: page.width
