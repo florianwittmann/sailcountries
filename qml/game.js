@@ -5,7 +5,7 @@ Qt.include("gamemodes.js");
 Qt.include("difficulties.js");
 Qt.include("scoresdb.js");
 
-var countries = getCountriesData();
+var countries = null;
 
 var gameModeKeys = new Array;
 gameModeKeys[0] = "q30"
@@ -47,6 +47,8 @@ function getCurrentFeaturedCountry() {
 }
 
 function getNextFeaturedCountry() {
+    if(countries===null)
+        countries = getCountriesData();
     var index = Math.floor(Math.random()* countries.length);
     featuredCountry = countries[index];
     return featuredCountry;
@@ -58,10 +60,14 @@ function getScore() {
 
 
 function getCountry(id) {
+    if(countries===null)
+        countries = getCountriesData();
     return(countries[id])
 }
 
 function getRandomCountries(count) {
+    if(countries===null)
+        countries = getCountriesData();
     var countriesToChoose = countries.slice();
     var randomCountries = new Array(count);
     for(var i=0; i<count; i++) {

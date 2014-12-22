@@ -2,9 +2,10 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "pages"
 import "cover"
-
-import "game.js" as Game
 import "settingsdb.js" as SettingsDb
+import "game.js" as Game
+import "countries.js" as Countries
+
 
 ApplicationWindow
 {
@@ -30,6 +31,10 @@ ApplicationWindow
     }
 
     FontLoader { id: gameMenuFont; source: "fonts/peleja-regular-1.0.otf" }
+
+    Component.onCompleted: {
+        Game.countries = Countries.getCountriesData();
+    }
 
 
 }
