@@ -1,3 +1,11 @@
+0.3.5
+- Compatibility fixes for jolla update 10
+- Use km² as the unit of area rather than "sq km" - Thanks to Lauri Nurmi!
+- New: Catalan translation by Agustí Clara
+- New: Dutch translation by Heimen Stoffels
+- New: Italian translation by Watchmaker and chetiserve
+- Many small translation updates
+
 0.3.4
 - New: Slovenian translation by LjudLjus
 - Finnish translation fix
