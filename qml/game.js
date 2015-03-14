@@ -58,7 +58,7 @@ function getQuestion(answerCount, randomCountries) {
                break;
         }
     });
-    var randomnumber=Math.floor(Math.random()*(questionFuncs.length + 1));
+    var randomnumber=Math.floor(Math.random()*(questionFuncs.length));
     return questionFuncs[randomnumber](answerCount, randomCountries);
 }
 
