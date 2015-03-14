@@ -21,13 +21,14 @@ var gameTime = 0;
 var lastStartTime = null;
 var playerName ="";
 
+
 var answering = 0;
 var answerOpacity = new Array(4);
+var scoredGame = true;
 var level = 2;
 var gameMode = 0;
 var featuredCountry = null;
 var categories = [];
-categories.push(1);
 
 function getNextQuestion() {
     var answerCount = level + 2;

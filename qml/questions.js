@@ -202,7 +202,9 @@ var Questions = (function () {
         selectTheBiggestCountry: selectTheBiggestCountry,
         selectTheBiggestPopulation: selectTheBiggestPopulation,
         selectTheSmallestCountry: selectTheSmallestCountry,
-        selectTheSmallestPopulation: selectTheSmallestPopulation
+        selectTheSmallestPopulation: selectTheSmallestPopulation,
+        askForCapitalCity: askForCapitalCity,
+        askForCountryName: askForCountryName
     };
 
 })();

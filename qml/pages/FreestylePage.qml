@@ -3,14 +3,16 @@ import Sailfish.Silica 1.0
 import "../components"
 import "../game.js" as Game
 import "../helper.js" as Helper
-import "../gamemodes.js" as Gamemodes
-import "../difficulties.js" as Difficulties
+import "../learnmodes.js" as Learnmodes
 
 Page {
 
     id: startNewGamePage
     property bool isChooseGameModesVisible: true
     property bool isChooseDifficultyVisible: false
+
+    property var choosedQuestionTypes: [0,1,2,3]
+    property int choosedCount: 4
 
     Column {
         id: countryColumn
@@ -21,86 +23,53 @@ Page {
             source: "../images/sailcountries_logo.png"
         }
 
-        SettingsChooser {
-            id: gameMode
-            title: qsTr("Game mode")
-            currentIndex: Game.gameMode
-            //choosedSetting: Gamemodes.gamemodes[Game.gameMode].name
-            onClicked: {
-                if (isChooseDifficultyVisible)
-                    return
-                gameMode.choosedSetting = ""
-                isChooseGameModesVisible = true
-                isChooseDifficultyVisible = false
-            }
+        GamePageHeader {
+            text: qsTr("Questions")
         }
 
         Repeater {
-            model: gamemodes
+            model: questionsTypes
             delegate: GameMenuButton {
                 text: name
-                visible: isChooseGameModesVisible
-                onClicked: {
-                    gameMode.choosedSetting = name
-                    gameMode.currentIndex = index
-                    isChooseGameModesVisible = false
-                    isChooseDifficultyVisible = difficulty.choosedSetting === ""
-                }
-            }
-        }
-
-        SettingsChooser {
-            id: difficulty
-            currentIndex: Game.level
-            visible: difficulty.choosedSetting !== "" || gameMode.choosedSetting !== ""
-            //choosedSetting: Difficulties.difficulties[Game.level].name
-            title: qsTr("Difficulty")
-            onClicked: {
-                if (isChooseGameModesVisible)
-                    return
-                difficulty.choosedSetting = ""
-                isChooseDifficultyVisible = true
-                isChooseGameModesVisible = false
-            }
-        }
-
-        Repeater {
-            model: difficulties
-            delegate: GameMenuButton {
-                text: name
-                visible: isChooseDifficultyVisible
-                onClicked: {
-                    difficulty.choosedSetting = name
-                    difficulty.currentIndex = index
-                    isChooseDifficultyVisible = false
-                }
+                opacity: choosedQuestionTypes.indexOf(index) > -1 ? 1.0 : 0.5
+                onClicked: clickOption(index)
             }
         }
     }
+
+
+
     GameMenuButton {
         anchors.bottom: parent.bottom
-        text: qsTr("Start")
-        visible: !isChooseDifficultyVisible && !isChooseGameModesVisible
+        text: qsTr("Continue")
+        visible: choosedCount > 0
         onClicked: {
-            Game.restartGame()
-            Game.level = difficulty.currentIndex
-            Game.gameMode = gameMode.currentIndex
-            pageStack.replaceAbove(null, Qt.resolvedUrl("GamePage.qml"))
+            Game.categories = choosedQuestionTypes;
+            pageStack.push(Qt.resolvedUrl("StartGamePage.qml"))
         }
     }
 
+
     ListModel {
-        id: difficulties
-    }
-    ListModel {
-        id: gamemodes
+        id: questionsTypes
     }
     Component.onCompleted: {
-        for (var i = 0; i < Difficulties.difficulties.length; i++) {
-            difficulties.append(Difficulties.difficulties[i])
-        }
-        for (var j = 0; j < Gamemodes.gamemodes.length; j++) {
-            gamemodes.append(Gamemodes.gamemodes[j])
+        for (var j = 0; j < Learnmodes.learnmodes.length; j++) {
+            questionsTypes.append(Learnmodes.learnmodes[j])
         }
     }
+
+    function clickOption(index) {
+        var newChoosedQuestionTypes = choosedQuestionTypes;
+        var pos = newChoosedQuestionTypes.indexOf(index);
+        if(pos > -1) {
+            newChoosedQuestionTypes.splice(pos, 1);
+        } else {
+            newChoosedQuestionTypes.push(index);
+        }
+        choosedQuestionTypes=[];
+        choosedQuestionTypes= newChoosedQuestionTypes;
+        choosedCount = choosedQuestionTypes.length;
+    }
+
 }

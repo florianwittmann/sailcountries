@@ -31,12 +31,19 @@ Page {
             width: parent.width
             GameMenuButton {
                text: qsTr("Scored Game")
-               onClicked: pageStack.push(Qt.resolvedUrl("StartGamePage.qml"))
+               onClicked: {
+                   Game.categories = [0,1,2,3];
+                   Game.scoredGame = true;
+                   pageStack.push(Qt.resolvedUrl("StartGamePage.qml"));
+               }
             }
-//            GameMenuButton {
-//               text: qsTr("Freestyle Game")
-//               onClicked: pageStack.push(Qt.resolvedUrl("StartGamePage.qml"))
-//            }
+            GameMenuButton {
+               text: qsTr("Freestyle Game")
+               onClicked: {
+                   Game.scoredGame = false;
+                   pageStack.push(Qt.resolvedUrl("FreestylePage.qml"))
+               }
+            }
             GameMenuButton {
                text: qsTr("Highscores")
                onClicked: pageStack.push(Qt.resolvedUrl("ScoresPage.qml"))
@@ -55,15 +62,15 @@ Page {
 
         PullDownMenu {
             MenuItem {
-                text: qsTr("About")
-                onClicked: {
-                    pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-                }
-            }
-            MenuItem {
                 text: qsTr("Settings")
                 onClicked: {
                     pageStack.push(Qt.resolvedUrl("SettingsPage.qml"))
+                }
+            }
+            MenuItem {
+                text: qsTr("About")
+                onClicked: {
+                    pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
                 }
             }
         }

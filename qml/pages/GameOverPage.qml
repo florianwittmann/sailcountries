@@ -28,6 +28,7 @@ Page {
         }
 
         TextField {
+            visible: Game.scoredGame
             anchors.left: parent.left
             anchors.right: parent.right
             id: playerName
@@ -38,12 +39,14 @@ Page {
 
         GameMenuButton {
            visible: playerName.text!=="";
-           text: qsTr("Save")
+           text: Game.scoredGame ? qsTr("Save") : qsTr("Continue")
            onClicked: afterGameOver()
 
            function afterGameOver() {
-                ScoresDB.saveHighScore(playerName.text, Game.getScore(), Game.gameModeKeys[Game.gameMode], Game.level)
-                Game.playerName = playerName.text;
+                if(Game.scoredGame ) {
+                    ScoresDB.saveHighScore(playerName.text, Game.getScore(), Game.gameModeKeys[Game.gameMode], Game.level)
+                    Game.playerName = playerName.text;
+                }
                 pageStack.replace(Qt.resolvedUrl("StartPage.qml"))
            }
         }

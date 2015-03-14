@@ -5,7 +5,6 @@ Label {
 
     anchors.right: parent.right
     anchors.rightMargin: Theme.paddingLarge
-    anchors.top: parent.top
     anchors.topMargin: Theme.paddingLarge
     anchors.left: parent.left
     anchors.leftMargin: 120

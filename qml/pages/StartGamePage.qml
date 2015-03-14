@@ -53,7 +53,6 @@ Page {
             id: difficulty
             currentIndex: Game.level
             visible: difficulty.choosedSetting !== "" || gameMode.choosedSetting !== ""
-            //choosedSetting: Difficulties.difficulties[Game.level].name
             title: qsTr("Difficulty")
             onClicked: {
                 if (isChooseGameModesVisible)
