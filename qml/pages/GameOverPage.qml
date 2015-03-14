@@ -24,7 +24,12 @@ Page {
 
 
         GameLabel {
-            text:  qsTr("Your score: %1").arg(Game.getScore());
+            text:  qsTr("Your score: %1").arg(Game.getScore())
+        }
+
+        GameLabel {
+            visible: !Game.scoredGame
+            text:  qsTr("Freestyle games don't count for highscore list.")
         }
 
         TextField {
@@ -38,7 +43,7 @@ Page {
         }
 
         GameMenuButton {
-           visible: playerName.text!=="";
+           visible: playerName.text!=="" || !Game.scoredGame;
            text: Game.scoredGame ? qsTr("Save") : qsTr("Continue")
            onClicked: afterGameOver()
 
