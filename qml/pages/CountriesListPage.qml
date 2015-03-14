@@ -9,6 +9,7 @@ Page {
 
     GamePageHeader {
         id: header
+        anchors.top: parent.top
         text: qsTr("Countries")
     }
 

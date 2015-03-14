@@ -61,19 +61,8 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
     qml/settings.js \
     qml/pages/FreestylePage.qml
 
-HEADERS +=
-
 QT += sql
 
-
-lupdate_only {
-SOURCES = qml/harbour-sailcountries.qml \
-          qml/pages/*.qml \
-          qml/cover/*.qml \
-          qml/*.js
-}
-
-RESOURCES +=
+CONFIG += sailfishapp_i18n
 
 TRANSLATIONS = translations/sailcountries_en.ts
-

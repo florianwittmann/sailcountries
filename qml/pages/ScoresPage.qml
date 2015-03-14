@@ -11,6 +11,7 @@ Page {
     id: scoresPage
 
     GamePageHeader {
+        anchors.top: parent.top
         id: header
         text: qsTr("Highscores")
     }
@@ -30,7 +31,7 @@ Page {
 
 
         Column {
-            width: page.width
+            width: scoresPage.width
             id: col
             anchors.left: parent.left
             anchors.leftMargin: Theme.paddingSmall

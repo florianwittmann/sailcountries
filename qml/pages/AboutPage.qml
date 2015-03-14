@@ -14,6 +14,7 @@ Page {
 
 
         GamePageHeader {
+            anchors.top: parent.top
             id: header
             text: qsTr("About")
         }
