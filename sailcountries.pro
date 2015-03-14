@@ -58,7 +58,8 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
     qml/pages/StartLearningPage.qml \
     qml/settingsdb.js \
     qml/pages/SettingsPage.qml \
-    qml/settings.js
+    qml/settings.js \
+    qml/pages/FreestylePage.qml
 
 HEADERS +=
 

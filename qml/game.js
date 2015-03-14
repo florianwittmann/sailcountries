@@ -1,5 +1,6 @@
 .pragma library
 
+Qt.include("questions.js");
 Qt.include("countries.js");
 Qt.include("gamemodes.js");
 Qt.include("difficulties.js");
@@ -20,13 +21,46 @@ var gameTime = 0;
 var lastStartTime = null;
 var playerName ="";
 
-
 var answering = 0;
 var answerOpacity = new Array(4);
 var level = 2;
 var gameMode = 0;
-
 var featuredCountry = null;
+var categories = [];
+categories.push(1);
+
+function getNextQuestion() {
+    var answerCount = level + 2;
+    var countriesForQuestion = getRandomCountries(answerCount);
+    currentQuestion = getQuestion(answerCount, countriesForQuestion);
+    return currentQuestion;
+}
+
+function getQuestion(answerCount, randomCountries) {
+    var questionFuncs = [];
+    categories.forEach(function(category) {
+        switch(category) {
+            case 0:
+                questionFuncs.push(Questions.askForCapitalCity);
+                questionFuncs.push(Questions.askForCountryName);
+                break;
+           case 1:
+               questionFuncs.push(Questions.askForFlagOfCountry);
+               questionFuncs.push(Questions.askForCountryOfFlag);
+               break;
+           case 2:
+               questionFuncs.push(Questions.selectTheBiggestPopulation);
+               questionFuncs.push(Questions.selectTheSmallestPopulation);
+               break;
+           case 3:
+               questionFuncs.push(Questions.selectTheBiggestCountry);
+               questionFuncs.push(Questions.selectTheSmallestCountry);
+               break;
+        }
+    });
+    var randomnumber=Math.floor(Math.random()*(questionFuncs.length + 1));
+    return questionFuncs[randomnumber](answerCount, randomCountries);
+}
 
 function getUsedTimeLive() {
     if(lastStartTime==null) {
