@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -149,13 +149,13 @@
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="211"/>
-        <source>Score: %1</source>
+        <location filename="../qml/pages/GamePage.qml" line="83"/>
+        <source>Cancel current game</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="83"/>
-        <source>Cancel current game</source>
+        <location filename="../qml/pages/GamePage.qml" line="211"/>
+        <source>Score: %1</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -186,11 +186,6 @@
 <context>
     <name>StartGamePage</name>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="81"/>
-        <source>Start</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/pages/StartGamePage.qml" line="26"/>
         <source>Game mode</source>
         <translation type="unfinished"></translation>
@@ -198,6 +193,11 @@
     <message>
         <location filename="../qml/pages/StartGamePage.qml" line="56"/>
         <source>Difficulty</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartGamePage.qml" line="81"/>
+        <source>Start</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -216,11 +216,6 @@
 </context>
 <context>
     <name>StartPage</name>
-    <message>
-        <location filename="../qml/pages/StartPage.qml" line="71"/>
-        <source>About</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Scored Game</source>
@@ -249,6 +244,11 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="65"/>
         <source>Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="71"/>
+        <source>About</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -490,6 +490,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/countries.js" line="166"/>
+        <source>Bras��lia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/countries.js" line="172"/>
         <source>Brunei</source>
         <translation type="unfinished"></translation>
@@ -542,6 +547,11 @@
     <message>
         <location filename="../qml/countries.js" line="207"/>
         <source>Cameroon</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="208"/>
+        <source>Yaound��</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -600,18 +610,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qml/countries.js" line="166"/>
-        <source>Brasília</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="208"/>
-        <source>Yaoundé</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../qml/countries.js" line="250"/>
-        <source>Bogotá</source>
+        <source>Bogot��</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -631,7 +631,7 @@
     </message>
     <message>
         <location filename="../qml/countries.js" line="264"/>
-        <source>San José</source>
+        <source>San Jos��</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -987,37 +987,7 @@
     </message>
     <message>
         <location filename="../qml/countries.js" line="516"/>
-        <source>Reykjavík</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="726"/>
-        <source>Malé</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="887"/>
-        <source>Pyongyang (P&apos;yŏngyang)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="936"/>
-        <source>Asunción</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="1055"/>
-        <source>São Tomé</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="1223"/>
-        <source>Lomé</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="1356"/>
-        <source>Sanaá</source>
+        <source>Reykjav��k</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1316,6 +1286,21 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../qml/countries.js" line="726"/>
+        <source>Mal��</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="936"/>
+        <source>Asunci��n</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="1356"/>
+        <source>Sana��</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../qml/countries.js" line="732"/>
         <source>Mali</source>
         <translation type="unfinished"></translation>
@@ -1534,6 +1519,11 @@
     <message>
         <location filename="../qml/countries.js" line="886"/>
         <source>North Korea</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="887"/>
+        <source>Pyongyang (P&apos;y��ngyang)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1760,6 +1750,11 @@
     <message>
         <location filename="../qml/countries.js" line="1054"/>
         <source>Sao Tome and Principe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="1055"/>
+        <source>S��o Tom��</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1991,6 +1986,11 @@
     <message>
         <location filename="../qml/countries.js" line="1222"/>
         <source>Togo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="1223"/>
+        <source>Lom��</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -63,6 +63,11 @@ OTHER_FILES += qml/harbour-sailcountries.qml \
 
 QT += sql
 
-CONFIG += sailfishapp_i18n
+update_only {
+SOURCES = qml/harbour-sailcountries.qml \
+ qml/pages/*.qml \
+ qml/cover/*.qml \
+ qml/*.js
+}
 
 TRANSLATIONS = translations/sailcountries_en.ts
