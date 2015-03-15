@@ -2,72 +2,72 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="18"/>
+        <location filename="../qml/pages/AboutPage.qml" line="19"/>
         <source>About</source>
         <translation>Quant a</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="42"/>
+        <location filename="../qml/pages/AboutPage.qml" line="43"/>
         <source>A quiz game about the countries of the world.</source>
         <translation>Un joc de preguntes sobre els països del món.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="46"/>
+        <location filename="../qml/pages/AboutPage.qml" line="47"/>
         <source>License</source>
         <translation>Llicència</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <location filename="../qml/pages/AboutPage.qml" line="52"/>
         <source>Source code is licensed under the MIT License (MIT).</source>
-        <translation>El codi font està llicenciat sota la Llicència MIT (MIT).</translation>
+        <translation>El codi font es distribueix sota la Llicència MIT (MIT).</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="54"/>
+        <location filename="../qml/pages/AboutPage.qml" line="55"/>
         <source>The font is licensed under the SIL Open Font License (OFL).</source>
-        <translation>Les fonts estan llicenciades sota la SIL Open Font License (OFL).</translation>
+        <translation>Les fonts es distribueixen sota la Llicència de Fonts Obertes SIL (OFL).</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="58"/>
+        <location filename="../qml/pages/AboutPage.qml" line="59"/>
         <source>Contribute</source>
         <translation>Contribuïu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="73"/>
+        <location filename="../qml/pages/AboutPage.qml" line="74"/>
         <source>Translate</source>
         <translation>Traduïu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="81"/>
+        <location filename="../qml/pages/AboutPage.qml" line="82"/>
         <source>Report bugs</source>
         <translation>Informeu sobre errors</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="87"/>
+        <location filename="../qml/pages/AboutPage.qml" line="88"/>
         <source>Donate</source>
         <translation>Feu una donació</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="91"/>
+        <location filename="../qml/pages/AboutPage.qml" line="92"/>
         <source>If you enjoy the game, consider to buy me some beer :-)</source>
         <translation>Si us agrada el joc, tingueu en consideració pagar a l&apos;autor alguna cervesa :-)</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="106"/>
+        <location filename="../qml/pages/AboutPage.qml" line="107"/>
         <source>Paypal EUR</source>
         <translation>Paypal Euros</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="114"/>
+        <location filename="../qml/pages/AboutPage.qml" line="115"/>
         <source>Paypal USD</source>
         <translation>Paypal Dòlars</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="121"/>
+        <location filename="../qml/pages/AboutPage.qml" line="122"/>
         <source>Thanks</source>
         <translation>Gràcies</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="126"/>
+        <location filename="../qml/pages/AboutPage.qml" line="127"/>
         <source>Many thanks to the translators for the help and your comments and likes on both openrepos and the jolla store.</source>
         <translation>Gràcies als traductors per l&apos;ajuda i pels vostres comentaris i valoracions a la jolla store i a openrepos.</translation>
     </message>
@@ -75,7 +75,7 @@
 <context>
     <name>CountriesListPage</name>
     <message>
-        <location filename="../qml/pages/CountriesListPage.qml" line="12"/>
+        <location filename="../qml/pages/CountriesListPage.qml" line="13"/>
         <source>Countries</source>
         <translation>Països</translation>
     </message>
@@ -99,6 +99,19 @@
     </message>
 </context>
 <context>
+    <name>FreestylePage</name>
+    <message>
+        <location filename="../qml/pages/FreestylePage.qml" line="27"/>
+        <source>Questions</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../qml/pages/FreestylePage.qml" line="44"/>
+        <source>Continue</source>
+        <translation type="unfinished"/>
+    </message>
+</context>
+<context>
     <name>GameOverPage</name>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="15"/>
@@ -111,25 +124,35 @@
         <translation>La vostra puntuació: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="34"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="32"/>
+        <source>Freestyle games don&apos;t count for highscore list.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../qml/pages/GameOverPage.qml" line="40"/>
         <source>Name for highscore</source>
         <translation>Nom per la taula de rècords</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="41"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="47"/>
         <source>Save</source>
         <translation>Desa</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/GameOverPage.qml" line="47"/>
+        <source>Continue</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="215"/>
+        <location filename="../qml/pages/GamePage.qml" line="211"/>
         <source>Score: %1</source>
         <translation>Puntuació: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="84"/>
+        <location filename="../qml/pages/GamePage.qml" line="83"/>
         <source>Cancel current game</source>
         <translation>Cancel·la la partida actual</translation>
     </message>
@@ -145,7 +168,7 @@
 <context>
     <name>ScoresPage</name>
     <message>
-        <location filename="../qml/pages/ScoresPage.qml" line="15"/>
+        <location filename="../qml/pages/ScoresPage.qml" line="16"/>
         <source>Highscores</source>
         <translation>Taula de rècords</translation>
     </message>
@@ -155,13 +178,13 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="25"/>
         <source>Font</source>
-        <translation>Font</translation>
+        <translation>Tipus de Lletra</translation>
     </message>
 </context>
 <context>
     <name>StartGamePage</name>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="82"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="81"/>
         <source>Start</source>
         <translation>Comença</translation>
     </message>
@@ -171,7 +194,7 @@
         <translation>Mode de partida</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="57"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="56"/>
         <source>Difficulty</source>
         <translation>Dificultat</translation>
     </message>
@@ -192,32 +215,37 @@
 <context>
     <name>StartPage</name>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="59"/>
+        <location filename="../qml/pages/StartPage.qml" line="71"/>
         <source>About</source>
         <translation>Quant a</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
-        <source>Start new game</source>
-        <translation>Comença una partida nova</translation>
+        <source>Scored Game</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="38"/>
+        <location filename="../qml/pages/StartPage.qml" line="41"/>
+        <source>Freestyle Game</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="48"/>
         <source>Highscores</source>
         <translation>Taula de rècords</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="43"/>
+        <location filename="../qml/pages/StartPage.qml" line="53"/>
         <source>Learn</source>
         <translation>Apreneu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="48"/>
+        <location filename="../qml/pages/StartPage.qml" line="58"/>
         <source>Countries</source>
         <translation>Països</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="53"/>
+        <location filename="../qml/pages/StartPage.qml" line="65"/>
         <source>Settings</source>
         <translation>Configuració</translation>
     </message>
@@ -570,21 +598,6 @@
         <translation>Colòmbia</translation>
     </message>
     <message>
-        <location filename="../qml/countries.js" line="256"/>
-        <source>The Comoros</source>
-        <translation>Les Comores</translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="257"/>
-        <source>Moroni</source>
-        <translation>Moroni</translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="263"/>
-        <source>Costa Rica</source>
-        <translation>Costa Rica</translation>
-    </message>
-    <message>
         <location filename="../qml/countries.js" line="166"/>
         <source>Brasília</source>
         <translation>Brasília</translation>
@@ -598,6 +611,21 @@
         <location filename="../qml/countries.js" line="250"/>
         <source>Bogotá</source>
         <translation>Bogotà</translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="256"/>
+        <source>The Comoros</source>
+        <translation>Les Comores</translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="257"/>
+        <source>Moroni</source>
+        <translation>Moroni</translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="263"/>
+        <source>Costa Rica</source>
+        <translation>Costa Rica</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="264"/>
@@ -2241,42 +2269,42 @@
 <context>
     <name>questions</name>
     <message>
-        <location filename="../qml/questions.js" line="21"/>
+        <location filename="../qml/questions.js" line="9"/>
         <source>What is the capital city of %1?</source>
         <translation>Quina és la capital de %1?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="40"/>
+        <location filename="../qml/questions.js" line="27"/>
         <source>Select the biggest country: </source>
         <translation>Seleccioneu el país més gran:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="68"/>
+        <location filename="../qml/questions.js" line="55"/>
         <source>Select the smallest country: </source>
         <translation>Seleccioneu el país més petit:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="99"/>
+        <location filename="../qml/questions.js" line="86"/>
         <source>%1 is the capital of?</source>
         <translation>%1 és la capital de?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="119"/>
+        <location filename="../qml/questions.js" line="106"/>
         <source>What is the flag of %1?</source>
         <translation>Quina és la bandera de %1?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="138"/>
+        <location filename="../qml/questions.js" line="125"/>
         <source>Which country has this flag?</source>
         <translation>Quin país té aquesta bandera?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="158"/>
+        <location filename="../qml/questions.js" line="145"/>
         <source>Select the country with the biggest population:</source>
         <translation>Seleccioneu el país amb la població més gran:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="188"/>
+        <location filename="../qml/questions.js" line="175"/>
         <source>Select the country with the smallest population:</source>
         <translation>Seleccioneu el país amb la població més petita:</translation>
     </message>
@@ -2286,12 +2314,12 @@
     <message>
         <location filename="../qml/settings.js" line="4"/>
         <source>Gamefont</source>
-        <translation>Font de la partida</translation>
+        <translation>Font de SailCountries</translation>
     </message>
     <message>
         <location filename="../qml/settings.js" line="8"/>
         <source>Themefont</source>
-        <translation>Font del tema</translation>
+        <translation>Font del sistema</translation>
     </message>
 </context>
 </TS>

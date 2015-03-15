@@ -2,72 +2,72 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="18"/>
+        <location filename="../qml/pages/AboutPage.qml" line="19"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="42"/>
+        <location filename="../qml/pages/AboutPage.qml" line="43"/>
         <source>A quiz game about the countries of the world.</source>
-        <translation>Een spelquiz over de landen van de wereld.</translation>
+        <translation>Een quizspel over de landen van de wereld.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="46"/>
+        <location filename="../qml/pages/AboutPage.qml" line="47"/>
         <source>License</source>
         <translation>Licentie</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="51"/>
+        <location filename="../qml/pages/AboutPage.qml" line="52"/>
         <source>Source code is licensed under the MIT License (MIT).</source>
-        <translation>Broncode is gelicenseerd onder de MIT-licentie (MIT).</translation>
+        <translation>De broncode is gelicenseerd onder de MIT-licentie (MIT).</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="54"/>
+        <location filename="../qml/pages/AboutPage.qml" line="55"/>
         <source>The font is licensed under the SIL Open Font License (OFL).</source>
         <translation>Het lettertype is gelicenseerd onder de SIL Open Font-licentie (OFL).</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="58"/>
+        <location filename="../qml/pages/AboutPage.qml" line="59"/>
         <source>Contribute</source>
         <translation>Bijdragen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="73"/>
+        <location filename="../qml/pages/AboutPage.qml" line="74"/>
         <source>Translate</source>
         <translation>Vertalen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="81"/>
+        <location filename="../qml/pages/AboutPage.qml" line="82"/>
         <source>Report bugs</source>
         <translation>Bugs rapporteren</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="87"/>
+        <location filename="../qml/pages/AboutPage.qml" line="88"/>
         <source>Donate</source>
         <translation>Doneren</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="91"/>
+        <location filename="../qml/pages/AboutPage.qml" line="92"/>
         <source>If you enjoy the game, consider to buy me some beer :-)</source>
         <translation>Als u dit spel leuk vindt, overweeg dan om wat bier voor me te kopen :-)</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="106"/>
+        <location filename="../qml/pages/AboutPage.qml" line="107"/>
         <source>Paypal EUR</source>
         <translation>PayPal EUR</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="114"/>
+        <location filename="../qml/pages/AboutPage.qml" line="115"/>
         <source>Paypal USD</source>
         <translation>PayPal USD</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="121"/>
+        <location filename="../qml/pages/AboutPage.qml" line="122"/>
         <source>Thanks</source>
         <translation>Bedankt</translation>
     </message>
     <message>
-        <location filename="../qml/pages/AboutPage.qml" line="126"/>
+        <location filename="../qml/pages/AboutPage.qml" line="127"/>
         <source>Many thanks to the translators for the help and your comments and likes on both openrepos and the jolla store.</source>
         <translation>Hartelijk dank aan alle vertalers voor alle hulp en uw commentaar en waarderingen op Openrepos en de Jolla Store.</translation>
     </message>
@@ -75,7 +75,7 @@
 <context>
     <name>CountriesListPage</name>
     <message>
-        <location filename="../qml/pages/CountriesListPage.qml" line="12"/>
+        <location filename="../qml/pages/CountriesListPage.qml" line="13"/>
         <source>Countries</source>
         <translation>Landen</translation>
     </message>
@@ -99,11 +99,24 @@
     </message>
 </context>
 <context>
+    <name>FreestylePage</name>
+    <message>
+        <location filename="../qml/pages/FreestylePage.qml" line="27"/>
+        <source>Questions</source>
+        <translation>Vragen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FreestylePage.qml" line="44"/>
+        <source>Continue</source>
+        <translation>Doorgaan</translation>
+    </message>
+</context>
+<context>
     <name>GameOverPage</name>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="15"/>
         <source>Game Over</source>
-        <translation>Spel afgelopen</translation>
+        <translation>Het spel is afgelopen</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="27"/>
@@ -111,27 +124,37 @@
         <translation>Uw score: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="34"/>
-        <source>Name for highscore</source>
-        <translation>Naam voor topscore</translation>
+        <location filename="../qml/pages/GameOverPage.qml" line="32"/>
+        <source>Freestyle games don&apos;t count for highscore list.</source>
+        <translation>Spellen in de vrije spelmodus tellen niet mee op de topscorelijst.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GameOverPage.qml" line="41"/>
+        <location filename="../qml/pages/GameOverPage.qml" line="40"/>
+        <source>Name for highscore</source>
+        <translation>Naam van de topscoorder</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/GameOverPage.qml" line="47"/>
         <source>Save</source>
         <translation>Opslaan</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/GameOverPage.qml" line="47"/>
+        <source>Continue</source>
+        <translation>Doorgaan</translation>
     </message>
 </context>
 <context>
     <name>GamePage</name>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="215"/>
+        <location filename="../qml/pages/GamePage.qml" line="211"/>
         <source>Score: %1</source>
         <translation>Score: %1</translation>
     </message>
     <message>
-        <location filename="../qml/pages/GamePage.qml" line="84"/>
+        <location filename="../qml/pages/GamePage.qml" line="83"/>
         <source>Cancel current game</source>
-        <translation>Huidig spel afbreken</translation>
+        <translation>Stop het huidige spel</translation>
     </message>
 </context>
 <context>
@@ -145,7 +168,7 @@
 <context>
     <name>ScoresPage</name>
     <message>
-        <location filename="../qml/pages/ScoresPage.qml" line="15"/>
+        <location filename="../qml/pages/ScoresPage.qml" line="16"/>
         <source>Highscores</source>
         <translation>Topscores</translation>
     </message>
@@ -161,7 +184,7 @@
 <context>
     <name>StartGamePage</name>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="82"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="81"/>
         <source>Start</source>
         <translation>Beginnen</translation>
     </message>
@@ -171,7 +194,7 @@
         <translation>Spelmodus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartGamePage.qml" line="57"/>
+        <location filename="../qml/pages/StartGamePage.qml" line="56"/>
         <source>Difficulty</source>
         <translation>Moeilijkheidsgraad</translation>
     </message>
@@ -192,32 +215,37 @@
 <context>
     <name>StartPage</name>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="59"/>
+        <location filename="../qml/pages/StartPage.qml" line="71"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
-        <source>Start new game</source>
-        <translation>Nieuw spel starten</translation>
+        <source>Scored Game</source>
+        <translation>Scorespelmodus</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="38"/>
+        <location filename="../qml/pages/StartPage.qml" line="41"/>
+        <source>Freestyle Game</source>
+        <translation>Vrije spelmodus</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/StartPage.qml" line="48"/>
         <source>Highscores</source>
         <translation>Topscores</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="43"/>
+        <location filename="../qml/pages/StartPage.qml" line="53"/>
         <source>Learn</source>
         <translation>Leren</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="48"/>
+        <location filename="../qml/pages/StartPage.qml" line="58"/>
         <source>Countries</source>
         <translation>Landen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/StartPage.qml" line="53"/>
+        <location filename="../qml/pages/StartPage.qml" line="65"/>
         <source>Settings</source>
         <translation>Instellingen</translation>
     </message>
@@ -570,6 +598,21 @@
         <translation>Colombia</translation>
     </message>
     <message>
+        <location filename="../qml/countries.js" line="166"/>
+        <source>Brasília</source>
+        <translation>Brasília</translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="208"/>
+        <source>Yaoundé</source>
+        <translation>Yaoundé</translation>
+    </message>
+    <message>
+        <location filename="../qml/countries.js" line="250"/>
+        <source>Bogotá</source>
+        <translation>Bogota</translation>
+    </message>
+    <message>
         <location filename="../qml/countries.js" line="256"/>
         <source>The Comoros</source>
         <translation>De Comoros</translation>
@@ -583,21 +626,6 @@
         <location filename="../qml/countries.js" line="263"/>
         <source>Costa Rica</source>
         <translation>Costa Rica</translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="166"/>
-        <source>Brasília</source>
-        <translation>Brasília</translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="208"/>
-        <source>Yaoundé</source>
-        <translation>Yaoundé</translation>
-    </message>
-    <message>
-        <location filename="../qml/countries.js" line="250"/>
-        <source>Bogotá</source>
-        <translation>Bogotá</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="264"/>
@@ -973,7 +1001,7 @@
     <message>
         <location filename="../qml/countries.js" line="936"/>
         <source>Asunción</source>
-        <translation>Asunción</translation>
+        <translation>Asuncion</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1055"/>
@@ -988,7 +1016,7 @@
     <message>
         <location filename="../qml/countries.js" line="1356"/>
         <source>Sanaá</source>
-        <translation>Sanaá</translation>
+        <translation>Sanaa</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="522"/>
@@ -998,7 +1026,7 @@
     <message>
         <location filename="../qml/countries.js" line="523"/>
         <source>New Delhi</source>
-        <translation>New Delhi</translation>
+        <translation>Nieuw-Delhi</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="529"/>
@@ -1494,7 +1522,7 @@
     <message>
         <location filename="../qml/countries.js" line="879"/>
         <source>Nigeria</source>
-        <translation>Nigerie</translation>
+        <translation>Nigerië</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="880"/>
@@ -1634,7 +1662,7 @@
     <message>
         <location filename="../qml/countries.js" line="984"/>
         <source>The Republic of China</source>
-        <translation>The Republic of China</translation>
+        <translation>Volksrepubliek China</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="985"/>
@@ -1644,7 +1672,7 @@
     <message>
         <location filename="../qml/countries.js" line="991"/>
         <source>The Republic of the Congo</source>
-        <translation>Republiek van Congo</translation>
+        <translation>Volksrepubliek Congo</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="992"/>
@@ -1669,7 +1697,7 @@
     <message>
         <location filename="../qml/countries.js" line="1006"/>
         <source>Moscow</source>
-        <translation>Mosko</translation>
+        <translation>Moskou</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1012"/>
@@ -2066,7 +2094,7 @@
     <message>
         <location filename="../qml/countries.js" line="1299"/>
         <source>The United States</source>
-        <translation>Verenigde Staten</translation>
+        <translation>Verenigde Staten van Amerika</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1300"/>
@@ -2111,7 +2139,7 @@
     <message>
         <location filename="../qml/countries.js" line="1328"/>
         <source>Vatican City</source>
-        <translation>Vatican City</translation>
+        <translation>Vaticaanstad</translation>
     </message>
     <message>
         <location filename="../qml/countries.js" line="1334"/>
@@ -2241,42 +2269,42 @@
 <context>
     <name>questions</name>
     <message>
-        <location filename="../qml/questions.js" line="21"/>
+        <location filename="../qml/questions.js" line="9"/>
         <source>What is the capital city of %1?</source>
         <translation>Wat is de hoofdstad van %1?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="40"/>
+        <location filename="../qml/questions.js" line="27"/>
         <source>Select the biggest country: </source>
         <translation>Selecteer het grootste land:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="68"/>
+        <location filename="../qml/questions.js" line="55"/>
         <source>Select the smallest country: </source>
         <translation>Selecteer het kleinste land:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="99"/>
+        <location filename="../qml/questions.js" line="86"/>
         <source>%1 is the capital of?</source>
         <translation>%1 is de hoofdstad van?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="119"/>
+        <location filename="../qml/questions.js" line="106"/>
         <source>What is the flag of %1?</source>
         <translation>Wat is de vlag van %1?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="138"/>
+        <location filename="../qml/questions.js" line="125"/>
         <source>Which country has this flag?</source>
         <translation>Welk land heeft deze vlag?</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="158"/>
+        <location filename="../qml/questions.js" line="145"/>
         <source>Select the country with the biggest population:</source>
         <translation>Selecteer het land met de grootste bevolking:</translation>
     </message>
     <message>
-        <location filename="../qml/questions.js" line="188"/>
+        <location filename="../qml/questions.js" line="175"/>
         <source>Select the country with the smallest population:</source>
         <translation>Selecteer het land met de kleinste bevolking:</translation>
     </message>
