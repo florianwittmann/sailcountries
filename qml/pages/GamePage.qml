@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 import "../game.js" as Game
+import "../questions.js" as Questions
 import "../components"
 
 Page {
@@ -178,7 +179,13 @@ Page {
     }
 
     function loadNewQuestion() {
-        var question = Game.getNextQuestion()
+
+        var answerCount = Game.level + 2;
+        var countriesForQuestion = Game.getRandomCountries(answerCount);
+        var categories = Game.categories;
+        var question = Questions.Questions.getQuestion(answerCount, countriesForQuestion, categories)
+        Game.currentQuestion = question;
+
         askText = question.ask
 
         if (question.questiontype === 1) {

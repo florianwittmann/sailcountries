@@ -2,6 +2,32 @@ Qt.include("helper.js");
 
 var Questions = (function () {
 
+    function getQuestion(answerCount, randomCountries, categories) {
+        var questionFuncs = [];
+        categories.forEach(function(category) {
+            switch(category) {
+                case 0:
+                    questionFuncs.push(askForCapitalCity);
+                    questionFuncs.push(askForCountryName);
+                    break;
+               case 1:
+                   questionFuncs.push(askForFlagOfCountry);
+                   questionFuncs.push(askForCountryOfFlag);
+                   break;
+               case 2:
+                   questionFuncs.push(selectTheBiggestPopulation);
+                   questionFuncs.push(selectTheSmallestPopulation);
+                   break;
+               case 3:
+                   questionFuncs.push(selectTheBiggestCountry);
+                   questionFuncs.push(selectTheSmallestCountry);
+                   break;
+            }
+        });
+        var randomnumber=Math.floor(Math.random()*(questionFuncs.length));
+        return questionFuncs[randomnumber](answerCount, randomCountries);
+    }
+
     function askForCapitalCity(answerCount, randomCountries) {
         var searchedAnswer=Math.floor(Math.random()*answerCount);
 
@@ -197,6 +223,7 @@ var Questions = (function () {
     }
 
     return {
+        getQuestion: getQuestion,
         askForCountryOfFlag: askForCountryOfFlag,
         askForFlagOfCountry: askForFlagOfCountry,
         selectTheBiggestCountry: selectTheBiggestCountry,

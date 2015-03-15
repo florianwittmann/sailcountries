@@ -30,39 +30,6 @@ var gameMode = 0;
 var featuredCountry = null;
 var categories = [];
 
-function getNextQuestion() {
-    var answerCount = level + 2;
-    var countriesForQuestion = getRandomCountries(answerCount);
-    currentQuestion = getQuestion(answerCount, countriesForQuestion);
-    return currentQuestion;
-}
-
-function getQuestion(answerCount, randomCountries) {
-    var questionFuncs = [];
-    categories.forEach(function(category) {
-        switch(category) {
-            case 0:
-                questionFuncs.push(Questions.askForCapitalCity);
-                questionFuncs.push(Questions.askForCountryName);
-                break;
-           case 1:
-               questionFuncs.push(Questions.askForFlagOfCountry);
-               questionFuncs.push(Questions.askForCountryOfFlag);
-               break;
-           case 2:
-               questionFuncs.push(Questions.selectTheBiggestPopulation);
-               questionFuncs.push(Questions.selectTheSmallestPopulation);
-               break;
-           case 3:
-               questionFuncs.push(Questions.selectTheBiggestCountry);
-               questionFuncs.push(Questions.selectTheSmallestCountry);
-               break;
-        }
-    });
-    var randomnumber=Math.floor(Math.random()*(questionFuncs.length));
-    return questionFuncs[randomnumber](answerCount, randomCountries);
-}
-
 function getUsedTimeLive() {
     if(lastStartTime==null) {
         return gameTime/1000;
