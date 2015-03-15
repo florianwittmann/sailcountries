@@ -103,12 +103,12 @@
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="27"/>
         <source>Questions</source>
-        <translation type="unfinished"/>
+        <translation>Preguntes</translation>
     </message>
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="44"/>
         <source>Continue</source>
-        <translation type="unfinished"/>
+        <translation>Continua</translation>
     </message>
 </context>
 <context>
@@ -126,7 +126,7 @@
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="32"/>
         <source>Freestyle games don&apos;t count for highscore list.</source>
-        <translation type="unfinished"/>
+        <translation>Els jocs lliures no es compten a la llista de rècords.</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="40"/>
@@ -141,7 +141,7 @@
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="47"/>
         <source>Continue</source>
-        <translation type="unfinished"/>
+        <translation>Continua</translation>
     </message>
 </context>
 <context>
@@ -222,12 +222,12 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Scored Game</source>
-        <translation type="unfinished"/>
+        <translation>Joc amb puntuació</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="41"/>
         <source>Freestyle Game</source>
-        <translation type="unfinished"/>
+        <translation>Joc lliure</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="48"/>

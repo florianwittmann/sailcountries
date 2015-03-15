@@ -222,7 +222,7 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Scored Game</source>
-        <translation>Juego anotado</translation>
+        <translation>Partida para puntuar</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="41"/>
