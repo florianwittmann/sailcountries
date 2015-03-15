@@ -11,8 +11,8 @@ Page {
     property bool isChooseGameModesVisible: true
     property bool isChooseDifficultyVisible: false
 
-    property var choosedQuestionTypes: [0,1,2,3]
-    property int choosedCount: 4
+    property var choosedQuestionTypes: []
+    property int choosedCount: 0
 
     Column {
         id: countryColumn
