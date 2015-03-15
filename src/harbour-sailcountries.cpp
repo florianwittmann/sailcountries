@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
     view->setTitle("SailCountries");
 
 
-    view->rootContext()->setContextProperty("versionString", "0.3.91");
+    view->rootContext()->setContextProperty("versionString", "0.3.92");
 
 
     QUrl pageSource = SailfishApp::pathTo("qml/harbour-sailcountries.qml");
