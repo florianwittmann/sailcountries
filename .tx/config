@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[sailcountries.sailcountries]
+file_filter = translations/sailcountries_<lang>.ts
+source_lang = en
+type = QT
+
