@@ -103,7 +103,7 @@
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="27"/>
         <source>Questions</source>
-        <translation type="unfinished"/>
+        <translation>Kysymykset</translation>
     </message>
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="44"/>
@@ -126,7 +126,7 @@
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="32"/>
         <source>Freestyle games don&apos;t count for highscore list.</source>
-        <translation type="unfinished"/>
+        <translation>Harjoituspelit eivät mene huipputulosten listalle.</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="40"/>
@@ -222,12 +222,12 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Scored Game</source>
-        <translation type="unfinished"/>
+        <translation>Kilpailu</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="41"/>
         <source>Freestyle Game</source>
-        <translation type="unfinished"/>
+        <translation>Harjoituspeli</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="48"/>
