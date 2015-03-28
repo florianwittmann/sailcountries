@@ -108,7 +108,7 @@
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="44"/>
         <source>Continue</source>
-        <translation type="unfinished"/>
+        <translation>继续</translation>
     </message>
 </context>
 <context>
@@ -141,7 +141,7 @@
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="47"/>
         <source>Continue</source>
-        <translation type="unfinished"/>
+        <translation>继续</translation>
     </message>
 </context>
 <context>
@@ -247,7 +247,7 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="65"/>
         <source>Settings</source>
-        <translation type="unfinished"/>
+        <translation>设置</translation>
     </message>
 </context>
 <context>
