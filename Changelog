@@ -1,3 +1,9 @@
+0.4.1
+- Added landscape support
+- Fix capital of Palau (Ngerulmud is the capital of Palau, which is located in the state of Melekeok, and the capitol complex is located near the village of Melekeok) - Thanks @KwadroNaut
+- Fix area of Vatican (Vatican is 0.44km² not 44km²) - Thanks @KwadroNaut
+- Update translations
+
 0.4.0
 - Updated italian and finnish translations
 
