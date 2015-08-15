@@ -912,7 +912,7 @@ function getCountriesData() {
      };
     countries[130] = {
         name : qsTr("Palau"),
-        capital : qsTr("Melekeok"),
+        capital : qsTr("Ngerulmud"),
         population : 20901,
         area : 459,
         code : "PW"
@@ -1327,7 +1327,7 @@ function getCountriesData() {
         name : qsTr("The Vatican City"),
         capital : qsTr("Vatican City"),
         population : 839,
-        area : 44,
+        area : 0.44,
         code : "VA"
      };
     countries[190] = {
