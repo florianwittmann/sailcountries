@@ -9,6 +9,7 @@ import "../scoresdb.js" as ScoresDB
 
 Page {
     id: scoresPage
+    allowedOrientations:  Orientation.All
 
     GamePageHeader {
         anchors.top: parent.top

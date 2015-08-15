@@ -8,6 +8,7 @@ import "../learnmodes.js" as Learnmodes
 Page {
 
     id: startNewGamePage
+    allowedOrientations:  Orientation.All
     property bool isChooseGameModesVisible: true
     property bool isChooseDifficultyVisible: false
 
@@ -20,6 +21,9 @@ Page {
         anchors.right: parent.right
         anchors.top: parent.top
         Image {
+            anchors.left: parent.left
+            anchors.right: parent.right
+            fillMode: Image.PreserveAspectFit
             source: "../images/sailcountries_logo.png"
         }
 

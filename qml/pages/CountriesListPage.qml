@@ -6,7 +6,7 @@ import "../countries.js" as Countries
 Page {
 
     id: countryListPage
-
+    allowedOrientations:  Orientation.All
     GamePageHeader {
         id: header
         anchors.top: parent.top

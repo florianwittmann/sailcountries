@@ -10,6 +10,7 @@ import "../scoresdb.js" as ScoresDB
 
 Page {
     id: countryDetail
+    allowedOrientations:  Orientation.All
     property var country
 
     GamePageHeader {

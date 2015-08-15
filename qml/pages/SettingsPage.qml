@@ -8,7 +8,7 @@ import "../settingsdb.js" as SettingsDb
 Page {
 
     id: settingsPage
-
+    allowedOrientations:  Orientation.All
     property bool isChooseFontsVisible: true
 
     Column {
@@ -17,6 +17,9 @@ Page {
         anchors.right: parent.right
         anchors.top: parent.top
         Image {
+            anchors.left: parent.left
+            anchors.right: parent.right
+            fillMode: Image.PreserveAspectFit
             source: "../images/sailcountries_logo.png"
         }
 

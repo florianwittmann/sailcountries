@@ -8,7 +8,7 @@ import "../scoresdb.js" as ScoresDB
 
 Page {
     id: gameOverPage
-
+    allowedOrientations:  Orientation.All
 
     GamePageHeader {
         id: gameOverLabel

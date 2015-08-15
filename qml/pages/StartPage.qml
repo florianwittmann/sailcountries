@@ -7,6 +7,7 @@ import "../helper.js" as Helper
 Page {
 
     id: welcomePage
+    allowedOrientations:  Orientation.All
 
     SilicaFlickable {
 
@@ -19,7 +20,11 @@ Page {
             anchors.left: parent.left
             anchors.right: parent.right
             anchors.top: parent.top
+
             Image {
+                anchors.left: parent.left
+                anchors.right: parent.right
+                fillMode: Image.PreserveAspectFit
                 source: "../images/sailcountries_logo.png"
             }
         }

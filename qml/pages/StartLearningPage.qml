@@ -8,6 +8,7 @@ import "../learnmodes.js" as Learnmodes
 Page {
 
     id: startLearningPage
+    allowedOrientations:  Orientation.All
     property bool isChooseLearnModeVisible: true
 
     Column {
@@ -16,6 +17,9 @@ Page {
         anchors.right: parent.right
         anchors.top: parent.top
         Image {
+            anchors.left: parent.left
+            anchors.right: parent.right
+            fillMode: Image.PreserveAspectFit
             source: "../images/sailcountries_logo.png"
         }
 

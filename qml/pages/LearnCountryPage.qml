@@ -10,6 +10,7 @@ import "../scoresdb.js" as ScoresDB
 
 Page {
     id: learnCountryPage
+    allowedOrientations:  Orientation.All
     property var country : getNextFeaturedCountry()
     property int learnMode : 0
     property string learnModeTitle : ""

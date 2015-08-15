@@ -6,7 +6,7 @@ import "../components"
 
 Page {
     id: gamePage
-
+    allowedOrientations:  Orientation.All
     property string askText: ''
     property string askImage: ''
     property string currentScore: ''
