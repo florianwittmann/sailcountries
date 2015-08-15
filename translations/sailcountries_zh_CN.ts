@@ -24,7 +24,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="55"/>
         <source>The font is licensed under the SIL Open Font License (OFL).</source>
-        <translation type="unfinished"/>
+        <translation>字体基于SIL Open Font License (OFL)协议</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="59"/>
@@ -77,7 +77,7 @@
     <message>
         <location filename="../qml/pages/CountriesListPage.qml" line="13"/>
         <source>Countries</source>
-        <translation type="unfinished"/>
+        <translation>国家</translation>
     </message>
 </context>
 <context>
@@ -103,7 +103,7 @@
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="27"/>
         <source>Questions</source>
-        <translation type="unfinished"/>
+        <translation>问题</translation>
     </message>
     <message>
         <location filename="../qml/pages/FreestylePage.qml" line="44"/>
@@ -126,7 +126,7 @@
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="32"/>
         <source>Freestyle games don&apos;t count for highscore list.</source>
-        <translation type="unfinished"/>
+        <translation>自由模式游戏不记入高分列表。</translation>
     </message>
     <message>
         <location filename="../qml/pages/GameOverPage.qml" line="40"/>
@@ -162,7 +162,7 @@
     <message>
         <location filename="../qml/pages/LearnCountryPage.qml" line="22"/>
         <source>Stop learning</source>
-        <translation type="unfinished"/>
+        <translation>停止教学</translation>
     </message>
 </context>
 <context>
@@ -178,7 +178,7 @@
     <message>
         <location filename="../qml/pages/SettingsPage.qml" line="25"/>
         <source>Font</source>
-        <translation type="unfinished"/>
+        <translation>字体</translation>
     </message>
 </context>
 <context>
@@ -204,7 +204,7 @@
     <message>
         <location filename="../qml/pages/StartLearningPage.qml" line="24"/>
         <source>Learn</source>
-        <translation type="unfinished"/>
+        <translation>怎么玩</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartLearningPage.qml" line="47"/>
@@ -222,12 +222,12 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="33"/>
         <source>Scored Game</source>
-        <translation type="unfinished"/>
+        <translation>竞赛模式</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="41"/>
         <source>Freestyle Game</source>
-        <translation type="unfinished"/>
+        <translation>自由模式</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="48"/>
@@ -237,12 +237,12 @@
     <message>
         <location filename="../qml/pages/StartPage.qml" line="53"/>
         <source>Learn</source>
-        <translation type="unfinished"/>
+        <translation>怎么玩</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="58"/>
         <source>Countries</source>
-        <translation type="unfinished"/>
+        <translation>国家</translation>
     </message>
     <message>
         <location filename="../qml/pages/StartPage.qml" line="65"/>
@@ -2248,22 +2248,22 @@
     <message>
         <location filename="../qml/learnmodes.js" line="4"/>
         <source>capitals</source>
-        <translation type="unfinished"/>
+        <translation>首都</translation>
     </message>
     <message>
         <location filename="../qml/learnmodes.js" line="8"/>
         <source>flags</source>
-        <translation type="unfinished"/>
+        <translation>旗帜</translation>
     </message>
     <message>
         <location filename="../qml/learnmodes.js" line="12"/>
         <source>populations</source>
-        <translation type="unfinished"/>
+        <translation>人口</translation>
     </message>
     <message>
         <location filename="../qml/learnmodes.js" line="16"/>
         <source>areas</source>
-        <translation type="unfinished"/>
+        <translation>地区</translation>
     </message>
 </context>
 <context>
@@ -2314,12 +2314,12 @@
     <message>
         <location filename="../qml/settings.js" line="4"/>
         <source>Gamefont</source>
-        <translation type="unfinished"/>
+        <translation>游戏字体</translation>
     </message>
     <message>
         <location filename="../qml/settings.js" line="8"/>
         <source>Themefont</source>
-        <translation type="unfinished"/>
+        <translation>主题字体</translation>
     </message>
 </context>
 </TS>
