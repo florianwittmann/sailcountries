@@ -2,6 +2,8 @@
 SailCountries
 =========
 
+'As a response to the development of jolla, I left sailfish os development. Feel free to fork SailCountries.'
+
 SailCountries is a quiz about the countries of the world for Sailfish OS.
 
 It has currently three game modes:
